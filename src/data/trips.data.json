@@ -1,0 +1,3787 @@
+[
+  {
+    "id": "nagoya-2024-05",
+    "title": "나고야 여행",
+    "country": "일본",
+    "city": "나고야",
+    "startDate": "2024-05-04",
+    "endDate": "2024-05-06",
+    "coverEmoji": "🍡",
+    "themeColor": "peach",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2024-05-04",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i1",
+            "title": "인천공항",
+            "time": "03:00 ~ 04:30",
+            "content": "공항으로 이동 후 주차",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i2",
+            "title": "출국",
+            "time": "07:30 ~ 09:30"
+          },
+          {
+            "id": "i3",
+            "title": "나고야 공항",
+            "time": "09:30 ~ 11:20",
+            "content": "도착 , 입국수속"
+          },
+          {
+            "id": "i4",
+            "title": "앤룸 나고야 후시미",
+            "content": "호텔이동 후 짐 맡기기"
+          },
+          {
+            "id": "i5",
+            "title": "나고야 교토 가츠큐",
+            "time": "11:20 ~ 11:30",
+            "content": "이동",
+            "note": "나고야 후시미점"
+          },
+          {
+            "id": "i6",
+            "title": "규카츠 <아침식사>",
+            "time": "11:30 ~ 12:30",
+            "cost": {
+              "amount": 80000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i7",
+            "title": "하브스 (Meitets)",
+            "time": "12:30 ~ 13:00",
+            "content": "이동, 구매",
+            "cost": {
+              "amount": 2.3,
+              "currency": "JPY"
+            },
+            "note": "도보 20분"
+          },
+          {
+            "id": "i8",
+            "title": "JR 게이트타워",
+            "time": "13:00 ~ 15:00",
+            "content": "구경 , 쇼핑",
+            "cost": {
+              "amount": 80000,
+              "currency": "KRW"
+            },
+            "note": "도보 7분"
+          },
+          {
+            "id": "i9",
+            "title": "미도리스시",
+            "time": "15:00 ~16:30",
+            "content": "이동 및 식사  <점심식사>",
+            "cost": {
+              "amount": 80000,
+              "currency": "KRW"
+            },
+            "note": "도보 5분  예약 실패(줄서야함)"
+          },
+          {
+            "id": "i10",
+            "title": "comtech tower",
+            "time": "16:30 ~ 18:30",
+            "content": "이동",
+            "cost": {
+              "amount": 23000,
+              "currency": "KRW"
+            },
+            "note": "도보 10분"
+          },
+          {
+            "id": "i11",
+            "title": "게임 + 노래방 (30분)",
+            "cost": {
+              "amount": 20000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i12",
+            "title": "테이토 스테이션",
+            "time": "18:30 ~ 19:00",
+            "content": "이동",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            },
+            "note": "버스 20분"
+          },
+          {
+            "id": "i13",
+            "title": "게임",
+            "time": "19:00 ~ 21:00",
+            "cost": {
+              "amount": 3,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i14",
+            "title": "모모마루(Momomaru)",
+            "time": "21:00 ~ 22:30",
+            "content": "이동 및 식사  <저녁식사>"
+          },
+          {
+            "id": "i15",
+            "title": "(내용 없음)",
+            "cost": {
+              "amount": 80000,
+              "currency": "KRW"
+            },
+            "note": "사과하이볼 예약번호 8S2ZVNACMJ"
+          },
+          {
+            "id": "i16",
+            "title": "편의점, 호텔",
+            "time": "22:30 ~",
+            "content": "귀가",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "다음날 아침 사기"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2024-05-05",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i17",
+            "title": "기상, 준비, 간단한 간식먹기",
+            "time": "06:00"
+          },
+          {
+            "id": "i18",
+            "title": "지브리파크",
+            "time": "07:30 ~ 08:50",
+            "content": "이동",
+            "cost": {
+              "amount": 82200,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i19",
+            "title": "구경 , 기념품사기",
+            "time": "09:00 ~ 13:00",
+            "cost": {
+              "amount": 20000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i20",
+            "title": "라무치이",
+            "time": "13:00 ~ 14:00",
+            "content": "이동"
+          },
+          {
+            "id": "i21",
+            "title": "된장돈가스 식사<점침식사>",
+            "time": "14:00 ~ 15:00",
+            "cost": {
+              "amount": 42000,
+              "currency": "KRW"
+            },
+            "note": "15:00~브레이크타임"
+          },
+          {
+            "id": "i22",
+            "title": "soccer shop kamo",
+            "time": "15:00 ~ 15:15",
+            "content": "쇼핑"
+          },
+          {
+            "id": "i23",
+            "title": "파르코 백화점(동관)",
+            "time": "15:15 ~ 17:00",
+            "content": "쇼핑",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "(3층 캐릭터/ 4층 펫샵/ 5층 가차샵)"
+          },
+          {
+            "id": "i24",
+            "title": "점프샵",
+            "time": "17:00 ~ 17:20",
+            "content": "쇼핑",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i25",
+            "title": "C-Pla",
+            "time": "17:20 ~ 18:00",
+            "content": "쇼핑",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i26",
+            "title": "오스상점가",
+            "time": "18:00 ~ 19:00",
+            "content": "이동 및 구경, 간식",
+            "cost": {
+              "amount": 50000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i27",
+            "title": "수요일의 엘리스"
+          },
+          {
+            "id": "i28",
+            "title": "오스칸 논"
+          },
+          {
+            "id": "i29",
+            "title": "오아시스 21",
+            "time": "19:00 ~ 19:30",
+            "content": "이동",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            },
+            "note": "close 21:00"
+          },
+          {
+            "id": "i30",
+            "title": "지브리샵, 해리포터, 가차샵",
+            "time": "19:30 ~ 20:30"
+          },
+          {
+            "id": "i31",
+            "title": "야바톤",
+            "time": "20:40 ~ 21:40",
+            "content": "된장돈가스 식사<저녁식사>",
+            "cost": {
+              "amount": 43000,
+              "currency": "KRW"
+            },
+            "note": "close 22:00   도보 8분"
+          },
+          {
+            "id": "i32",
+            "title": "세카이노 야마짱 혼텐",
+            "time": "21:40 ~ 22:30",
+            "content": "테바사키 포장",
+            "cost": {
+              "amount": 10000,
+              "currency": "KRW"
+            },
+            "note": "close 22:30   도보 13분"
+          },
+          {
+            "id": "i33",
+            "title": "돈키호테",
+            "time": "22:30 ~ 23:30",
+            "content": "(사카에점 24시) 쇼핑",
+            "cost": {
+              "amount": 60000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i34",
+            "title": "편의점 ,호텔",
+            "time": "23:00 ~",
+            "content": "귀가, 테바사키 먹기<야식>",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            }
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2024-05-06",
+        "weekday": "MON",
+        "items": [
+          {
+            "id": "i35",
+            "title": "기상, 짐챙기기",
+            "time": "06:00"
+          },
+          {
+            "id": "i36",
+            "title": "나고야공항",
+            "time": "7:00~8:20",
+            "content": "퇴실 . 이동"
+          },
+          {
+            "id": "i37",
+            "title": "ㅠㅠ",
+            "time": "10:25 ~"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "ng24-f1",
+        "category": "유심",
+        "cost": {
+          "amount": 26800,
+          "currency": "KRW"
+        },
+        "content": "유심칩"
+      },
+      {
+        "id": "ng24-f2",
+        "category": "교통비",
+        "cost": {
+          "amount": 35200,
+          "currency": "KRW"
+        },
+        "content": "공항열차 2인"
+      },
+      {
+        "id": "ng24-f3",
+        "category": "24시간권(1DAY) + 그외 + 비상용",
+        "cost": {
+          "amount": 40000,
+          "currency": "KRW"
+        }
+      }
+    ],
+    "checklist": [
+      {
+        "id": "ng24-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "ng24-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "ng24-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "ng24-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "nagoya-2025-05",
+    "title": "나고야 여행",
+    "country": "일본",
+    "city": "나고야",
+    "startDate": "2025-05-10",
+    "endDate": "2025-05-11",
+    "coverEmoji": "🍜",
+    "themeColor": "mint",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2025-05-10",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i1",
+            "title": "인천공항 제2터미널",
+            "time": "04:40 ~ 07:30",
+            "content": "공항으로 이동 후 주차",
+            "cost": {
+              "amount": 24000,
+              "currency": "KRW"
+            },
+            "note": "단기주차"
+          },
+          {
+            "id": "i2",
+            "title": "주부 국제공항",
+            "time": "07:30 ~ 09:30",
+            "content": "출국",
+            "cost": {
+              "amount": 708400,
+              "currency": "KRW"
+            },
+            "note": "항공권"
+          },
+          {
+            "id": "i3",
+            "title": "나고야역",
+            "time": "09:30 ~ 10:30",
+            "content": "뮤스카이 특급",
+            "cost": {
+              "amount": 34000,
+              "currency": "KRW"
+            },
+            "note": "공항 > 메이테츠나고야역 1번 플랫폼\n(왕복권)"
+          },
+          {
+            "id": "i4",
+            "title": "점심식사(규카츠)",
+            "time": "10:30 ~ 11:40",
+            "content": "나고야 교토 가츠큐",
+            "cost": {
+              "amount": 7500,
+              "currency": "JPY"
+            },
+            "note": "11시오픈"
+          },
+          {
+            "id": "i5",
+            "title": "오스거리 구경",
+            "time": "11:40 ~ 14:00",
+            "content": "간식\n가챠\n뽑기\n콘파루 에비산도(웨이팅 길면 패스)",
+            "cost": {
+              "amount": 8500,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i6",
+            "title": "호텔로 이동하면서 구경",
+            "time": "14:00 ~ 16:30",
+            "content": "하브스 나고야 파르코점1F",
+            "cost": {
+              "amount": 2200,
+              "currency": "JPY"
+            },
+            "note": "포장"
+          },
+          {
+            "id": "i7",
+            "title": "편의점",
+            "cost": {
+              "amount": 2200,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i8",
+            "title": "APA 호텔 나고야 사카에 에키마에 엑설런트",
+            "cost": {
+              "amount": 96783,
+              "currency": "KRW"
+            },
+            "note": "체크인 후 짐 놔두고 바로 다시 나오기"
+          },
+          {
+            "id": "i9",
+            "title": "저녁식사(우동)",
+            "time": "16:30 ~ 18:30",
+            "content": "Udon SEN",
+            "cost": {
+              "amount": 2500,
+              "currency": "JPY"
+            },
+            "note": "17시반 까지 브레이크타임"
+          },
+          {
+            "id": "i10",
+            "title": "사카에 거리 구경",
+            "time": "18:30 ~ 21:00",
+            "content": "오아시스21\n거리구경\n사카에역 지하상가 구경\n야경 사진찍기",
+            "cost": {
+              "amount": 5000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i11",
+            "title": "돈키호테 쇼핑",
+            "time": "21:00 ~ 22:00",
+            "cost": {
+              "amount": 2500,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i12",
+            "title": "야식(이자카야)",
+            "time": "22:00 ~ 23:00",
+            "content": "끌리는곳으로",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i13",
+            "title": "야식(초밥)",
+            "time": "22:00 ~ 23:00",
+            "content": "스시잔마이 사카에점"
+          },
+          {
+            "id": "i14",
+            "title": "근처 거리 구경하고 호텔로",
+            "time": "23:00 ~"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2025-05-11",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i15",
+            "title": "기상 후 나갈준비",
+            "time": "06:30 ~ 08:30"
+          },
+          {
+            "id": "i16",
+            "title": "아침식사(브런치정식&오니기리)",
+            "time": "08:30 ~ 10:00",
+            "content": "POPEYE",
+            "cost": {
+              "amount": 2200,
+              "currency": "JPY"
+            },
+            "note": "[플랜 A] 9시 오픈(8시20~30분 부터 웨이팅, 너무 길면 플랜B)"
+          },
+          {
+            "id": "i17",
+            "title": "아침식사(빵)",
+            "time": "08:30 ~ 10:00",
+            "content": "Komeda's Coffee",
+            "note": "[플랜 B] 여기도 인기 많음"
+          },
+          {
+            "id": "i18",
+            "title": "노리타케의 숲 구경",
+            "time": "10:00 ~ 12:00",
+            "content": "구경하고 사진찍기\n간식\n기념품샵 구경",
+            "cost": {
+              "amount": 1500,
+              "currency": "JPY"
+            },
+            "note": "후시미역 > 가메지마역"
+          },
+          {
+            "id": "i19",
+            "title": "나고야역 인근 구경",
+            "time": "12:00 ~ 15:50",
+            "content": "산리오샵 등\n간식, 카페",
+            "cost": {
+              "amount": 2500,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i20",
+            "title": "공항으로 출발, 공항식사",
+            "time": "16:00 ~ 16:50",
+            "content": "공항에서 마지막 식사",
+            "cost": {
+              "amount": 2500,
+              "currency": "JPY"
+            },
+            "note": "메이테츠나고야역 > 주부 국제공항"
+          },
+          {
+            "id": "i21",
+            "title": "인천공항 도착",
+            "time": "19:15 ~ 21:20",
+            "note": "제2터미널"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "ng25-f1",
+        "category": "비상금",
+        "cost": {
+          "amount": 4100,
+          "currency": "JPY"
+        }
+      },
+      {
+        "id": "ng25-f2",
+        "category": "교통비",
+        "cost": {
+          "amount": 1000,
+          "currency": "JPY"
+        }
+      }
+    ],
+    "checklist": [
+      {
+        "id": "ng25-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "ng25-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "ng25-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "ng25-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": [
+      {
+        "id": "ng25-p1",
+        "name": "popeye",
+        "category": "일본 가정식",
+        "confirmed": true,
+        "hours": "09:00 ~ 17:00",
+        "rating": 3.9
+      },
+      {
+        "id": "ng25-p2",
+        "name": "스시잔마이",
+        "category": "초밥",
+        "confirmed": true,
+        "hours": "11:00 ~ 05:00",
+        "rating": 3.8
+      },
+      {
+        "id": "ng25-p3",
+        "name": "Udon SEN",
+        "category": "우동",
+        "confirmed": false,
+        "hours": "11:00 ~ 22:00",
+        "breakTime": "14:00 ~ 17:30",
+        "rating": 4.2
+      },
+      {
+        "id": "ng25-p4",
+        "name": "나고야 교토 가츠큐",
+        "category": "규카츠",
+        "confirmed": true,
+        "hours": "11:00 ~ 21:30",
+        "breakTime": "14:30 ~ 17:00",
+        "rating": 4.3
+      },
+      {
+        "id": "ng25-p5",
+        "name": "사치린",
+        "category": "매운라면",
+        "confirmed": false,
+        "hours": "11:30 ~ 05:00",
+        "breakTime": "15:00 ~ 18:00",
+        "rating": 4.3
+      },
+      {
+        "id": "ng25-p6",
+        "name": "멘츠루비",
+        "category": "키시멘(우동&우동같은)",
+        "confirmed": false,
+        "hours": "11:00 ~ 03:00",
+        "breakTime": "15:00 ~ 17:00",
+        "rating": 4.0
+      },
+      {
+        "id": "ng25-p7",
+        "name": "ひつまぶし 一葉(한장)",
+        "category": "히츠마부시",
+        "confirmed": false,
+        "hours": "11:00 ~ 21:30",
+        "breakTime": "14:30 ~ 17:30",
+        "rating": 4.6
+      },
+      {
+        "id": "ng25-p8",
+        "name": "李昇 本館(리쇼우)",
+        "category": "야키니쿠",
+        "confirmed": false,
+        "hours": "16:00 ~ 23:00",
+        "rating": 4.3
+      },
+      {
+        "id": "ng25-p9",
+        "name": "Yakitori Gomame Nagoya",
+        "category": "꼬치집",
+        "confirmed": false,
+        "hours": "16:00 ~ 23:00",
+        "rating": 4.2
+      },
+      {
+        "id": "ng25-p10",
+        "name": "Suzume Odori",
+        "category": "디저트(빙수, 떡)",
+        "confirmed": false,
+        "hours": "10:30 ~ 18:30",
+        "rating": 4.3
+      },
+      {
+        "id": "ng25-p11",
+        "name": "하브스",
+        "category": "디저트(케잌)",
+        "confirmed": false,
+        "hours": "11:00 ~ 19:30",
+        "rating": 4.3
+      },
+      {
+        "id": "ng25-p12",
+        "name": "torisei",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p13",
+        "name": "해리포터상점",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p14",
+        "name": "C-Pla",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p15",
+        "name": "테이토스테이션",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p16",
+        "name": "미라이타워",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p17",
+        "name": "오아시스21",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p18",
+        "name": "돈키호테",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p19",
+        "name": "노리타케의 숲",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p20",
+        "name": "오사카성",
+        "category": "기타",
+        "confirmed": false
+      },
+      {
+        "id": "ng25-p21",
+        "name": "오스상점거리",
+        "category": "기타",
+        "confirmed": false
+      }
+    ]
+  },
+  {
+    "id": "taipei-2025-01",
+    "title": "대만 타이베이 여행",
+    "country": "대만",
+    "city": "타이베이",
+    "startDate": "2025-01-28",
+    "endDate": "2025-02-01",
+    "coverEmoji": "🧋",
+    "themeColor": "sky",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2025-01-28",
+        "weekday": "TUE",
+        "items": [
+          {
+            "id": "i1",
+            "title": "인천공항",
+            "time": "06:00 ~ 07:40",
+            "content": "공항으로 이동 후 주차",
+            "cost": {
+              "amount": 60000,
+              "currency": "KRW"
+            },
+            "note": "단기주차"
+          },
+          {
+            "id": "i2",
+            "title": "출국",
+            "time": "09:40 ~ 11:30",
+            "cost": {
+              "amount": 1234600,
+              "currency": "KRW"
+            },
+            "note": "항공권"
+          },
+          {
+            "id": "i3",
+            "title": "타오위안 공항",
+            "time": "11:30 ~ 12:50",
+            "content": "도착 후 타이베이로 이동",
+            "cost": {
+              "amount": 25000,
+              "currency": "KRW"
+            },
+            "note": "공항철도 MRT B2층 ezfly에서 티켓으로 교환(보라색 열차)"
+          },
+          {
+            "id": "i4",
+            "title": "로더스 플러스 호텔",
+            "content": "호텔이동 후 짐 맡기기",
+            "cost": {
+              "amount": 555000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i5",
+            "title": "점심식사",
+            "time": "12:50 ~ 14:30",
+            "content": "moon moon food",
+            "cost": {
+              "amount": 500,
+              "currency": "TWD"
+            },
+            "note": "닫혀있으면 주변 다른곳 즉흥으로"
+          },
+          {
+            "id": "i6",
+            "title": "쓰쓰난춘",
+            "time": "14:30 ~ 15:30",
+            "content": "구경 및 간식",
+            "cost": {
+              "amount": 400,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i7",
+            "title": "타이베이101",
+            "time": "15:30 ~ 16:30",
+            "content": "주변 구경"
+          },
+          {
+            "id": "i8",
+            "title": "breeze 쇼핑몰거리",
+            "time": "16:30 ~ 18:00",
+            "content": "구경"
+          },
+          {
+            "id": "i9",
+            "title": "라오허제 야시장",
+            "time": "18:00 ~ 20:30",
+            "content": "저녁 및 간식\n떡빙수, 굴전, 후추빵 등",
+            "cost": {
+              "amount": 900,
+              "currency": "TWD"
+            },
+            "note": "타이베이시청역 > 쏭산역. 버스 또는 택시로 이동"
+          },
+          {
+            "id": "i10",
+            "title": "이동 후 까르푸쇼핑",
+            "time": "23:00 ~ 24:30",
+            "content": "꾸이린점",
+            "cost": {
+              "amount": 2000,
+              "currency": "TWD"
+            },
+            "note": "문 닫혀있으면 2~4일차에 쇼핑"
+          },
+          {
+            "id": "i11",
+            "title": "호텔 귀가",
+            "time": "22:00 ~",
+            "content": "편의점 쇼핑",
+            "cost": {
+              "amount": 700,
+              "currency": "TWD"
+            },
+            "note": "쏭산역 > 메인역(로컬트레인 50TWD)"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2025-01-29",
+        "weekday": "WED",
+        "items": [
+          {
+            "id": "i12",
+            "title": "기상 후 아침식사",
+            "time": "09:00 ~ 12:50",
+            "content": "편의점간식"
+          },
+          {
+            "id": "i13",
+            "title": "메인역으로 이동",
+            "time": "12:50 ~ 13:20",
+            "content": "이동하면서 주변 구경"
+          },
+          {
+            "id": "i14",
+            "title": "예스지 투어",
+            "time": "13:20 ~ 14:30",
+            "content": "투어 출발",
+            "cost": {
+              "amount": 38800,
+              "currency": "KRW"
+            },
+            "note": "메인역 출구(M3) 지하 에스컬레이터 앞 미팅(13:20) ★지각X"
+          },
+          {
+            "id": "i15",
+            "title": "예류지질공원 - 입장권 미리 준비",
+            "time": "14:30 ~ 15:40",
+            "cost": {
+              "amount": 9800,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i16",
+            "title": "스펀 - 천등, 닭날개볶음밥 등",
+            "time": "15:40 ~ 17:20",
+            "cost": {
+              "amount": 400,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i17",
+            "title": "지우펀 - 간식 및 소품, 선물 등",
+            "time": "17:20 ~ 21:20",
+            "cost": {
+              "amount": 1000,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i18",
+            "title": "시먼딩야시장",
+            "time": "21:20 ~ 23:00",
+            "content": "시먼딩야시장\n시먼홍러우 펍존",
+            "cost": {
+              "amount": 600,
+              "currency": "TWD"
+            },
+            "note": "야시장 위주로 구경"
+          },
+          {
+            "id": "i19",
+            "title": "호텔 귀가",
+            "time": "23:00 ~"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2025-01-30",
+        "weekday": "THU",
+        "items": [
+          {
+            "id": "i20",
+            "title": "기상 후 이동",
+            "time": "06:40 ~ 09:30",
+            "cost": {
+              "amount": 120,
+              "currency": "TWD"
+            },
+            "note": "메인역 > 단수이역"
+          },
+          {
+            "id": "i21",
+            "title": "올드스트리트 구경",
+            "time": "09:30 ~ 11:30",
+            "content": "담강중학교"
+          },
+          {
+            "id": "i22",
+            "title": "진리대학교"
+          },
+          {
+            "id": "i23",
+            "title": "홍마오청",
+            "cost": {
+              "amount": 80,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i24",
+            "title": "점심식사",
+            "time": "11:30 ~ 12:40",
+            "content": "흑전반점(갈비덮밥, 마장면)",
+            "cost": {
+              "amount": 300,
+              "currency": "TWD"
+            },
+            "note": "닫혀있으면 주변 다른곳 즉흥으로"
+          },
+          {
+            "id": "i25",
+            "title": "거리 구경 및 간식",
+            "time": "12:40 ~ 15:00",
+            "content": "대왕오징어튀김",
+            "cost": {
+              "amount": 100,
+              "currency": "TWD"
+            },
+            "note": "meil 소품집"
+          },
+          {
+            "id": "i26",
+            "title": "대왕카스테라\n탄딩또우(아이스크림)",
+            "cost": {
+              "amount": 170,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i27",
+            "title": "이동",
+            "time": "15:00 ~ 15:50",
+            "cost": {
+              "amount": 120,
+              "currency": "TWD"
+            },
+            "note": "단수이역 > 젠탄역"
+          },
+          {
+            "id": "i28",
+            "title": "스린야시장",
+            "time": "15:50 ~ 18:00",
+            "content": "구경 및 간식 - 지파이, 치즈감자 등",
+            "cost": {
+              "amount": 800,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i29",
+            "title": "이동 후 메인역 구경",
+            "time": "18:00 ~ 19:20",
+            "content": "메인역 지하에 가챠, 뽑기 등 구경",
+            "cost": {
+              "amount": 600,
+              "currency": "TWD"
+            },
+            "note": "젠탄역 > 메인역"
+          },
+          {
+            "id": "i30",
+            "title": "시먼딩 구경",
+            "time": "19:20 ~ 23:10",
+            "content": "Eslite Spectrum Wuchang 몰",
+            "cost": {
+              "amount": 500,
+              "currency": "TWD"
+            },
+            "note": "야시장 제외하고 다른 볼거리 구경"
+          },
+          {
+            "id": "i31",
+            "title": "돈키호테 쇼핑",
+            "cost": {
+              "amount": 2500,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i32",
+            "title": "메인역근처 마사지샵",
+            "time": "23:10 ~ 24:10",
+            "content": "(足強重慶店)",
+            "cost": {
+              "amount": 2000,
+              "currency": "TWD"
+            },
+            "note": "발, 어깨 마사지 60~70분(문 닫았으면 호텔근처 아무대나 다른곳?)"
+          },
+          {
+            "id": "i33",
+            "title": "호텔 귀가",
+            "time": "24:10 ~"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "2025-01-31",
+        "weekday": "FRI",
+        "items": [
+          {
+            "id": "i34",
+            "title": "기상 후 이동",
+            "time": "07:00 ~ 09:20",
+            "note": "메인역 > 중샤오신싱역"
+          },
+          {
+            "id": "i35",
+            "title": "화산1914 창의문화원구",
+            "time": "09:20 ~ 11:00",
+            "content": "상점 구경",
+            "cost": {
+              "amount": 500,
+              "currency": "TWD"
+            },
+            "note": "소품거리 및 문화거리"
+          },
+          {
+            "id": "i36",
+            "title": "아침식사",
+            "time": "11:00 ~ 11:50",
+            "content": "딘타이펑",
+            "cost": {
+              "amount": 1500,
+              "currency": "TWD"
+            },
+            "note": "신의A4점"
+          },
+          {
+            "id": "i37",
+            "title": "쑹산 문화창의공원",
+            "time": "11:50 ~ 13:30",
+            "content": "구경",
+            "cost": {
+              "amount": 800,
+              "currency": "TWD"
+            },
+            "note": "시먼역 > 국부기념관(Sun Yat-sen)역"
+          },
+          {
+            "id": "i38",
+            "title": "이동 후 융캉제 구경",
+            "time": "13:30 ~ 15:30",
+            "content": "HOLI(소품샵)\nBao Maison(소품샵)\n마마우산(소품샵)\nJUMENG(소품샵)\n라이하오(소품샵)",
+            "cost": {
+              "amount": 900,
+              "currency": "TWD"
+            },
+            "note": "중샤오신싱역 > 동먼역"
+          },
+          {
+            "id": "i39",
+            "title": "우육탕면(점심식사)",
+            "cost": {
+              "amount": 700,
+              "currency": "TWD"
+            },
+            "note": "융캉우육면(브레이크 2시~5시)  - 웨이팅 길면 아래 식당\nYong Kang Sliced Noodles(브레이크 2시~5시)"
+          },
+          {
+            "id": "i40",
+            "title": "간식 - 총좌빙, 빙수, 버븥티 등",
+            "cost": {
+              "amount": 600,
+              "currency": "TWD"
+            },
+            "note": "빙수 = 배부르거나 웨이팅 너무 길면 패스"
+          },
+          {
+            "id": "i41",
+            "title": "중정기념당",
+            "time": "15:30 ~ 16:30",
+            "content": "구경",
+            "note": "매시 정각에 교대식"
+          },
+          {
+            "id": "i42",
+            "title": "보피랴오거리",
+            "time": "16:30 ~ 18:00",
+            "content": "구경",
+            "note": "중정기념당역 > 샤오난먼역"
+          },
+          {
+            "id": "i43",
+            "title": "저녁식사",
+            "time": "18:00 ~ 19:30",
+            "content": "주조자(Chou Cao Tzu) 철판요리",
+            "cost": {
+              "amount": 1000,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i44",
+            "title": "미츠코시 백화점",
+            "time": "19:30 ~ 20:30",
+            "content": "구경 및 쇼핑",
+            "cost": {
+              "amount": 350,
+              "currency": "TWD"
+            },
+            "note": "용산사역 > 메인역"
+          },
+          {
+            "id": "i45",
+            "title": "따다오청마터우광창(대도정마두)",
+            "time": "20:30 ~ 21:30",
+            "content": "구경 및 간식, 산책",
+            "cost": {
+              "amount": 350,
+              "currency": "TWD"
+            }
+          },
+          {
+            "id": "i46",
+            "title": "구경하면서 호텔로",
+            "time": "21:30 ~ 24:00"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "date": "2025-02-01",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i47",
+            "title": "일어나서 갈준비ㅠ",
+            "time": "08:00 ~ 09:00"
+          },
+          {
+            "id": "i48",
+            "title": "출발",
+            "time": "12:40 ~"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "tpe-f1",
+        "category": "비상금",
+        "cost": {
+          "amount": 400,
+          "currency": "TWD"
+        }
+      }
+    ],
+    "checklist": [
+      {
+        "id": "tpe-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "tpe-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "tpe-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "tpe-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "osaka-2023-01",
+    "title": "오사카 여행",
+    "country": "일본",
+    "city": "오사카",
+    "startDate": "2023-01-21",
+    "endDate": "2023-01-24",
+    "coverEmoji": "🏯",
+    "themeColor": "lavender",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2023-01-21",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i1",
+            "title": "인천공항",
+            "time": "03:30 ~ 04:45",
+            "content": "공항으로 이동 후 주차"
+          },
+          {
+            "id": "i2",
+            "title": "비행기 탑승 및 출발",
+            "time": "08:00 ~ 09:45",
+            "cost": {
+              "amount": 1297000,
+              "currency": "KRW"
+            },
+            "note": "진에어"
+          },
+          {
+            "id": "i3",
+            "title": "간사이공항",
+            "time": "09:45 ~ 11:00",
+            "content": "도착 및 입국수속",
+            "note": "빠르게 움직이기"
+          },
+          {
+            "id": "i4",
+            "title": "열차로 공항에서 난바역으로 이동",
+            "time": "11:05 ~ 11:43",
+            "cost": {
+              "amount": 40200,
+              "currency": "KRW"
+            },
+            "note": "라피트 공항철도 왕복권"
+          },
+          {
+            "id": "i5",
+            "title": "네스트 호텔 오사카 신사이바시",
+            "time": "12:00",
+            "content": "예약 확인 후 짐 맡기기",
+            "cost": {
+              "amount": 171000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i6",
+            "title": "오시카성",
+            "time": "12:00 ~ 13:00",
+            "content": "구경",
+            "cost": {
+              "amount": 122000,
+              "currency": "KRW"
+            },
+            "note": "[주유패스]"
+          },
+          {
+            "id": "i7",
+            "title": "나와스시",
+            "time": "13:00 ~ 14:30",
+            "content": "점심식사",
+            "cost": {
+              "amount": 130000,
+              "currency": "KRW"
+            },
+            "note": "약 11,000 ~ 13,000￥ [초밥]"
+          },
+          {
+            "id": "i8",
+            "title": "고베",
+            "time": "14:30 ~ 19:30",
+            "content": "고베로 이동 하여 하버랜드 구경 및 간단한 식사",
+            "cost": {
+              "amount": 50000,
+              "currency": "KRW"
+            },
+            "note": "약 5,000￥"
+          },
+          {
+            "id": "i9",
+            "title": "기타노이진칸 구경"
+          },
+          {
+            "id": "i10",
+            "title": "도톤보리",
+            "time": "19:30 ~ 21:00",
+            "content": "이동 후 도톤보리 구경"
+          },
+          {
+            "id": "i11",
+            "title": "저녁식사",
+            "time": "21:00 ~ 22:00",
+            "content": "미야비(21:15 구글예약)",
+            "cost": {
+              "amount": 130000,
+              "currency": "KRW"
+            },
+            "note": "약 11,000 ~ 13,000￥ [고기]"
+          },
+          {
+            "id": "i12",
+            "title": "편의점",
+            "time": "22:30 ~ 22:30",
+            "content": "충동구매",
+            "cost": {
+              "amount": 35000,
+              "currency": "KRW"
+            },
+            "note": "약 3,500￥ 지를예정"
+          },
+          {
+            "id": "i13",
+            "title": "네스트 호텔 오사카 신사이바시",
+            "time": "22:30",
+            "content": "숙소 체크인 후 일정 마무리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2023-01-22",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i14",
+            "title": "기상",
+            "time": "08:30"
+          },
+          {
+            "id": "i15",
+            "title": "나라현",
+            "time": "10:00 ~ 10:45",
+            "content": "나라현으로 이동",
+            "cost": {
+              "amount": 28000,
+              "currency": "KRW"
+            },
+            "note": "[긴테츠레일패스]"
+          },
+          {
+            "id": "i16",
+            "title": "나라공원",
+            "time": "10:45 ~ 12:30",
+            "content": "사슴, 상점거리 구경",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            },
+            "note": "약 4,000￥\n우동"
+          },
+          {
+            "id": "i17",
+            "title": "멘토안",
+            "content": "점심식사"
+          },
+          {
+            "id": "i18",
+            "title": "이동",
+            "time": "12:30 ~ 13:30",
+            "content": "우메다 스카이 빌딩으로 이동"
+          },
+          {
+            "id": "i19",
+            "title": "우메다 스카이 빌딩",
+            "time": "13:30 ~ 15:00",
+            "content": "공중정원 전망대 구경",
+            "note": "[주유패스]"
+          },
+          {
+            "id": "i20",
+            "title": "덴노지",
+            "time": "15:00 ~ 17:00",
+            "content": "신세카이거리 구경, 간식 사먹기\n덴덴타운 구경",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "약 3,000￥"
+          },
+          {
+            "id": "i21",
+            "title": "하루카스 300",
+            "time": "17:00 ~ 18:00",
+            "content": "전망대 구경",
+            "cost": {
+              "amount": 27000,
+              "currency": "KRW"
+            },
+            "note": "2,700￥[주유패스 10% 할인]\n(신용카드로 결제)"
+          },
+          {
+            "id": "i22",
+            "title": "다루마 쿠시카츠",
+            "time": "18:00 ~ 19:00",
+            "content": "저녁식사",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "약 3,000￥[튀김]\n쓰텐카구 지점"
+          },
+          {
+            "id": "i23",
+            "title": "도톤보리 크루즈",
+            "time": "19:00 ~ 20:30",
+            "content": "19:15, 19:45 배편 타면 될거같음",
+            "note": "[주유패스]"
+          },
+          {
+            "id": "i24",
+            "title": "다테다치(ダテダチ)",
+            "time": "20:30 ~ 21:30",
+            "content": "저녁식사2",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "약 3,000￥ [닭꼬치]\n2 Chome-4-12 Sennichimae, Chuo Ward, Osaka, 542-0074 일본"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2023-01-23",
+        "weekday": "MON",
+        "items": [
+          {
+            "id": "i25",
+            "title": "기상",
+            "time": "08:00 ~ 09:30"
+          },
+          {
+            "id": "i26",
+            "title": "라면박물관",
+            "time": "09:30 ~ 14:30",
+            "content": "11시 전에 도착(11시:봉지라면체험 예약)",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "약 3,000￥(가능하면 신용카드로 결제)"
+          },
+          {
+            "id": "i27",
+            "title": "나카자키쵸",
+            "time": "14:30 ~ 18:30",
+            "content": "카페 · 소품거리 구경\n헵파이브 쇼핑센터 구경 및 대관람차 타기",
+            "cost": {
+              "amount": 50000,
+              "currency": "KRW"
+            },
+            "note": "약 5,000￥\n[주유패스(헵파이브 대관람차)]"
+          },
+          {
+            "id": "i28",
+            "title": "마키노",
+            "time": "18:30 ~ 19:30",
+            "content": "저녁식사",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "약 3,000￥[텐동]"
+          },
+          {
+            "id": "i29",
+            "title": "아메리카무라, 오렌지스트릿",
+            "time": "19:30 ~ 21:00",
+            "content": "구경 쇼핑"
+          },
+          {
+            "id": "i30",
+            "title": "메가돈키호테",
+            "time": "21:00 ~ 22:00",
+            "content": "기념품 구입",
+            "cost": {
+              "amount": 70000,
+              "currency": "KRW"
+            },
+            "note": "신세카이 지점\n약 7,000￥ 지를예정(신용카드로 결제)"
+          },
+          {
+            "id": "i31",
+            "title": "도톤보리",
+            "time": "23:00 ~ 02:00",
+            "content": "거리구경, 숙소근처 구경"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "2023-01-24",
+        "weekday": "TUE",
+        "items": [
+          {
+            "id": "i32",
+            "title": "기상",
+            "time": "06:40"
+          },
+          {
+            "id": "i33",
+            "title": "네스트 호텔 오사카 신사이바시",
+            "time": "07:40 ~ 09:00",
+            "content": "퇴실 후 아침식사 또는 간식",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "약 3,000￥"
+          },
+          {
+            "id": "i34",
+            "title": "난바역",
+            "time": "09:00 ~ 09:38",
+            "content": "간사이공항으로 출발",
+            "note": "늦으면 결제 후 급행차 타야함\n09:13, 09:27"
+          },
+          {
+            "id": "i35",
+            "title": "간사이공항",
+            "time": "12:20 ~ 14:25",
+            "content": "면세점 기념품 구입, 비행기 탑승 및 출발",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "약 3,000￥ 또오자 ㅠㅠ"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [],
+    "checklist": [
+      {
+        "id": "osk-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "osk-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "osk-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "osk-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "cebu-2019-07",
+    "title": "세부 여행",
+    "country": "필리핀",
+    "city": "세부",
+    "startDate": "2019-07-27",
+    "endDate": "2019-07-31",
+    "coverEmoji": "🏖️",
+    "themeColor": "blush",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2019-07-27",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i1",
+            "title": "진에어 항공",
+            "time": "07:30 ~ 11:20",
+            "content": "인천공항 > 세부 막탄공항",
+            "cost": {
+              "amount": 522000,
+              "currency": "KRW"
+            },
+            "note": "무료 기내식 아침식사"
+          },
+          {
+            "id": "i2",
+            "title": "짐 찾기 및 소속",
+            "time": "11:20 ~ 12:30"
+          },
+          {
+            "id": "i3",
+            "title": "블루워터 마리바고 리조트",
+            "time": "12:30 ~ 13:30",
+            "content": "택시 or 리조트픽업, 숙소 도착 후 짐 맡기고 환전",
+            "cost": {
+              "amount": 409738,
+              "currency": "KRW"
+            },
+            "note": "택시어플(Grab)\n리조트픽업800페소"
+          },
+          {
+            "id": "i4",
+            "title": "레드크랩",
+            "time": "13:30 ~ 15:00",
+            "content": "리조트 근처 맛집 점심식사 후 체크인",
+            "cost": {
+              "amount": 68000,
+              "currency": "KRW"
+            },
+            "note": "칠리크랩\n갈릭버터쉬림프\n상하이볶음밥\n음료"
+          },
+          {
+            "id": "i5",
+            "title": "해피트리스파",
+            "time": "15:00 ~ 18:00",
+            "content": "리조트에서 사진찍기, 수영장, 놀기, 마사지",
+            "cost": {
+              "amount": 39000,
+              "currency": "KRW"
+            },
+            "note": "팁 챙기기 4달러(인당2달러)"
+          },
+          {
+            "id": "i6",
+            "title": "리조트음식",
+            "time": "18:00 ~ 19:00",
+            "content": "저녁식사"
+          },
+          {
+            "id": "i7",
+            "title": "리조트에서 놀기",
+            "time": "19:00 ~ 00:00"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2019-07-28",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i8",
+            "title": "세부호핑투어닷컴\n힐루+날루\n패러세일링",
+            "time": "09:00 ~ 17:00",
+            "content": "호핑투어",
+            "cost": {
+              "amount": 90,
+              "currency": "USD"
+            },
+            "note": "팁 챙기기 4달러(인당2달러)"
+          },
+          {
+            "id": "i9",
+            "title": "골드망고그릴",
+            "time": "17:00 ~ 19:30",
+            "content": "리조트에서 재정비 하고 근처 맛집 저녁식사"
+          },
+          {
+            "id": "i10",
+            "title": "해피트리스파",
+            "time": "19:30 ~ 21:30",
+            "content": "마사지",
+            "cost": {
+              "amount": 34000,
+              "currency": "KRW"
+            },
+            "note": "팁 챙기기 4달러(인당2달러)"
+          },
+          {
+            "id": "i11",
+            "title": "리조트에서 놀기",
+            "time": "21:00 ~ 00:00"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2019-07-29",
+        "weekday": "MON",
+        "items": [
+          {
+            "id": "i12",
+            "title": "크림슨 리조트",
+            "time": "11:00 ~ 12:00",
+            "content": "퇴실후 다음 리조트로 이동하여 짐 맡기기",
+            "cost": {
+              "amount": 378200,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i13",
+            "title": "세부시티로 이동",
+            "time": "12:00 ~ 13:00"
+          },
+          {
+            "id": "i14",
+            "title": "SM몰\n아얄라몰",
+            "time": "13:00 ~ 17:30",
+            "content": "점심식사 및 쇼핑 등"
+          },
+          {
+            "id": "i15",
+            "title": "마리바고그릴",
+            "time": "17:30 ~ 20:00",
+            "content": "막탄으로 이동하고 저녁"
+          },
+          {
+            "id": "i16",
+            "title": "리조트로 이동 후 놀기",
+            "time": "20:00 ~ 00:00"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "2019-07-30",
+        "weekday": "TUE",
+        "items": [
+          {
+            "id": "i17",
+            "title": "리조트 조식먹고 쉬기",
+            "time": "08:30 ~ 12:30"
+          },
+          {
+            "id": "i18",
+            "title": "근처 맛집 또는 숙소음식 점심식사",
+            "time": "12:30 ~ 14:00"
+          },
+          {
+            "id": "i19",
+            "title": "리조트 수영장에서 사진찍고 놀기, 휴양",
+            "time": "14:00 ~ 18:00"
+          },
+          {
+            "id": "i20",
+            "title": "짐정리 및 휴식하고 나갈준비",
+            "time": "18:00 ~ 21:00"
+          },
+          {
+            "id": "i21",
+            "title": "올레스파",
+            "time": "21:00 ~ 23:30",
+            "content": "마사지받고 공항으로 픽업",
+            "cost": {
+              "amount": 59000,
+              "currency": "KRW"
+            },
+            "note": "팁 챙기기 4달러(인당2달러)"
+          },
+          {
+            "id": "i22",
+            "title": "마사지샵 > 세부 막탄공항",
+            "time": "23:30 ~ 24:00"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "date": "2019-07-31",
+        "weekday": "WED",
+        "items": [
+          {
+            "id": "i23",
+            "title": "진에어 항공",
+            "time": "02:10 ~ 07:50",
+            "content": "세부 막탄공항 > 인천공항 도착 여행끝. ㅠㅠ",
+            "cost": {
+              "amount": 522000,
+              "currency": "KRW"
+            }
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [],
+    "checklist": [
+      {
+        "id": "ceb-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "ceb-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "ceb-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "ceb-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "tokyo-2023-09",
+    "title": "도쿄 여행",
+    "country": "일본",
+    "city": "도쿄",
+    "startDate": "2023-09-28",
+    "endDate": "2023-10-01",
+    "coverEmoji": "🍱",
+    "themeColor": "mint",
+    "people": 3,
+    "days": [
+      {
+        "day": 1,
+        "date": "2023-09-28",
+        "weekday": "THU",
+        "items": [
+          {
+            "id": "i1",
+            "title": "김포공항",
+            "time": "04:20 ~ 05:20",
+            "content": "공항으로 이동 후 주차(주차대행 조은주차 이용)",
+            "note": "국제선 2층 3번게이트 도착 15분전 꼭 전화 010-5518-9994"
+          },
+          {
+            "id": "i2",
+            "title": "출국 및 도착",
+            "time": "09:00 ~ 11:10",
+            "cost": {
+              "amount": 2309100,
+              "currency": "KRW"
+            },
+            "note": "하네다공항 Terminal 3"
+          },
+          {
+            "id": "i3",
+            "title": "호텔 이동",
+            "time": "12:10 ~ 13:00",
+            "content": "게이큐공항선(승강장2) > 시나가와 >  신오쿠보[JR]",
+            "cost": {
+              "amount": 9000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i4",
+            "title": "예약확인 후 짐 맡기기",
+            "time": "~ 13:15",
+            "cost": {
+              "amount": 443791,
+              "currency": "KRW"
+            },
+            "note": "오야도고코치"
+          },
+          {
+            "id": "i5",
+            "title": "점심식사",
+            "time": "13:15 ~ 15:00",
+            "content": "아키하바라로 이동 후 모토무라규카츠(규카츠)",
+            "cost": {
+              "amount": 60000,
+              "currency": "KRW"
+            },
+            "note": "아키하바라 5번출구"
+          },
+          {
+            "id": "i6",
+            "title": "아키하바라",
+            "time": "15:00 ~ 16:40",
+            "content": "구경",
+            "note": "아키하바라역"
+          },
+          {
+            "id": "i7",
+            "title": "도쿄타워",
+            "time": "16:40 ~ 18:25",
+            "content": "구경",
+            "note": "하마마쓰초역"
+          },
+          {
+            "id": "i8",
+            "title": "저녁식사",
+            "time": "18:25 ~ 19:55",
+            "content": "콘피라차야(카레우동)",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "메구로역"
+          },
+          {
+            "id": "i9",
+            "title": "오모테산도 & 하라주쿠",
+            "time": "19:55 ~ 21:10",
+            "content": "다케시타거리 구경",
+            "cost": {
+              "amount": 10000,
+              "currency": "KRW"
+            },
+            "note": "메구로역 > 하라주쿠역 - 와타타코(타코야끼) 등"
+          },
+          {
+            "id": "i10",
+            "title": "신주쿠",
+            "time": "21:10 ~ 23:10",
+            "content": "신주쿠육교 및 가부키초, 거리 구경",
+            "note": "하라주쿠역 > 신주쿠역 A18, B18 출구"
+          },
+          {
+            "id": "i11",
+            "title": "오모이데요코초 꼬치거리(이자카야)",
+            "cost": {
+              "amount": 70000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i12",
+            "title": "호텔",
+            "time": "23:10 ~ 23:35",
+            "content": "편의점에서 간식 사들고 복귀하고 끝",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            }
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2023-09-29",
+        "weekday": "FRI",
+        "items": [
+          {
+            "id": "i13",
+            "title": "기상 후 이동",
+            "time": "06:30 ~ 09:40",
+            "content": "간단한 아침 먹으면서 이동(8시40분쯤 호텔에서 출발)",
+            "cost": {
+              "amount": 13500,
+              "currency": "KRW"
+            },
+            "note": "오쿠보역 > 기치조지역(주오선)"
+          },
+          {
+            "id": "i14",
+            "title": "지브리미술관",
+            "time": "09:40 ~ 11:40",
+            "content": "구경(10시 입장)",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            },
+            "note": "또는 75,000￦(대행사이트 이용시)"
+          },
+          {
+            "id": "i15",
+            "title": "점심식사",
+            "time": "11:40 ~ 13:50",
+            "content": "에도마에SS(초밥)",
+            "cost": {
+              "amount": 193500,
+              "currency": "KRW"
+            },
+            "note": "기치조지역(주오선) > 신주쿠역 1,350￥(13,500\\)"
+          },
+          {
+            "id": "i16",
+            "title": "시부야",
+            "time": "13:50 ~ 18:00",
+            "content": "시부야구경 및 시부야스카이(전망대)",
+            "cost": {
+              "amount": 66000,
+              "currency": "KRW"
+            },
+            "note": "※5시입장 티켓"
+          },
+          {
+            "id": "i17",
+            "title": "신주쿠(저녁식사)",
+            "time": "18:00 ~ 19:30",
+            "content": "멘야무사시(츠케멘)",
+            "cost": {
+              "amount": 50000,
+              "currency": "KRW"
+            },
+            "note": "시부야역 > 신주쿠산초메역(10분)"
+          },
+          {
+            "id": "i18",
+            "title": "도쿄역",
+            "time": "19:50 ~ 20:50",
+            "content": "인근 구경"
+          },
+          {
+            "id": "i19",
+            "title": "신주쿠",
+            "time": "20:50 ~ 22:30",
+            "content": "구경 및 야식먹기",
+            "cost": {
+              "amount": 70000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i20",
+            "title": "호텔",
+            "time": "21:50 ~ 22:30",
+            "content": "정비 후 호텔인근 공원 및 거리 산책",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            }
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2023-09-30",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i21",
+            "title": "기상 후 이동",
+            "time": "06:00 ~ 08:20",
+            "content": "호텔에서 7시40분쯤 출발"
+          },
+          {
+            "id": "i22",
+            "title": "아침식사(츠키지시장)",
+            "time": "08:10 ~ 09:30",
+            "content": "츠키지이타도리 별관(초밥), 츠키지시장 구경",
+            "cost": {
+              "amount": 150000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i23",
+            "title": "팀랩플래닛",
+            "time": "09:30 ~ 11:40",
+            "content": "팀랩플래닛 즐기기",
+            "cost": {
+              "amount": 114000,
+              "currency": "KRW"
+            },
+            "note": "츠키지시장 > 팀랩플래닛 - 05-2번 버스"
+          },
+          {
+            "id": "i24",
+            "title": "점심식사",
+            "time": "12:00 ~ 13:20",
+            "content": "히츠마부시 나고야 빈쵸(장어덮밥)",
+            "cost": {
+              "amount": 136000,
+              "currency": "KRW"
+            },
+            "note": "팀랩플래닛 > 히가시긴자역 1,260￥(12,600\\) - 05-2번 버스"
+          },
+          {
+            "id": "i25",
+            "title": "아사쿠사",
+            "time": "13:20 ~ 15:30",
+            "content": "센소지",
+            "cost": {
+              "amount": 20000,
+              "currency": "KRW"
+            },
+            "note": "긴자역 > 아사쿠사역 2번출구"
+          },
+          {
+            "id": "i26",
+            "title": "스카이트리",
+            "time": "15:30 ~ 18:00",
+            "content": "스카이트리(전망대)",
+            "cost": {
+              "amount": 60000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i27",
+            "title": "저녁식사",
+            "time": "18:00 ~ 19:00",
+            "content": "혼토사야(야키니쿠)",
+            "cost": {
+              "amount": 110000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i28",
+            "title": "우에노",
+            "time": "19:00 ~ 19:20",
+            "content": "우에노 아메요코 시장 구경"
+          },
+          {
+            "id": "i29",
+            "title": "야키토리 우에노 분라쿠(이자카야)",
+            "time": "19:20 ~ 20:40",
+            "cost": {
+              "amount": 70000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i30",
+            "title": "돈키호테",
+            "time": "20:40 ~ 22:30",
+            "content": "시부야 메가돈키호테",
+            "cost": {
+              "amount": 90000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i31",
+            "title": "호텔",
+            "time": "22:30 ~",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            }
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "2023-10-01",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i32",
+            "title": "공항으로 이동",
+            "time": "08:10 ~ 09:20",
+            "content": "가기싫은데",
+            "cost": {
+              "amount": 9000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i33",
+            "title": "하네다공항",
+            "time": "12:25 ~ 14:45",
+            "content": "여행 끝 ㅠㅠ",
+            "cost": {
+              "amount": 60000,
+              "currency": "KRW"
+            },
+            "note": "주차대행 결제 - 비행기 탑승 전 1차 전화 및 카톡,\n도착 후 짐찾고 2차전화 하고 결제 (현금)"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "tk23-f1",
+        "category": "유심",
+        "cost": {
+          "amount": 37200,
+          "currency": "KRW"
+        },
+        "content": "유심칩"
+      },
+      {
+        "id": "tk23-f2",
+        "category": "도쿠나이패스",
+        "cost": {
+          "amount": 22800,
+          "currency": "KRW"
+        },
+        "content": "JR 패스권(1일)"
+      },
+      {
+        "id": "tk23-f3",
+        "category": "교통비",
+        "cost": {
+          "amount": 20000,
+          "currency": "KRW"
+        },
+        "content": "비상교통비"
+      }
+    ],
+    "checklist": [
+      {
+        "id": "tk23-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "tk23-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "tk23-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "tk23-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "fukuoka-2024-03",
+    "title": "후쿠오카 여행",
+    "country": "일본",
+    "city": "후쿠오카",
+    "startDate": "2024-03-01",
+    "endDate": "2024-03-03",
+    "coverEmoji": "🎢",
+    "themeColor": "sky",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2024-03-01",
+        "weekday": "FRI",
+        "items": [
+          {
+            "id": "i1",
+            "title": "인천공항",
+            "time": "02:00 ~ 03:40",
+            "content": "공항으로 이동 후 주차",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i2",
+            "title": "출국",
+            "time": "06:50 ~ 08:10",
+            "cost": {
+              "amount": 1100800,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i3",
+            "title": "후쿠오카 공항",
+            "time": "08:10 ~ 09:30",
+            "content": "도착 , 입국수속"
+          },
+          {
+            "id": "i4",
+            "title": "텐진 플레이스",
+            "time": "09:30 ~ 10:00",
+            "content": "호텔이동 후 짐 맡기기",
+            "cost": {
+              "amount": 327856,
+              "currency": "KRW"
+            },
+            "note": "K공항선 . 9:38출발~ :48 덴진역 도착 , 도보 10분"
+          },
+          {
+            "id": "i5",
+            "title": "완간시장",
+            "time": "10:00 ~10:30",
+            "content": "이동"
+          },
+          {
+            "id": "i6",
+            "title": "시장구경. 스시<아침식사>",
+            "time": "10:30 ~ 11:30",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i7",
+            "title": "보스 이조 후쿠오카",
+            "time": "11:30 ~ 12:40",
+            "content": "이동, 신나게 놀기",
+            "cost": {
+              "amount": 98000,
+              "currency": "KRW"
+            },
+            "note": "펀티켓(링크 미리구매) : 5종 입장권"
+          },
+          {
+            "id": "i8",
+            "title": "1. (옥상) 서스펜디스 롤러코스터",
+            "time": "12:40 ~ 16:00",
+            "note": "바지, 운동화 필수"
+          },
+          {
+            "id": "i9",
+            "title": "2. (옥상) 튜브형 미끄럼틀"
+          },
+          {
+            "id": "i10",
+            "title": "3. (3층) 단보라멘 <점심식사>",
+            "cost": {
+              "amount": 25000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i11",
+            "title": "4. (4층) 호크스 야구체험"
+          },
+          {
+            "id": "i12",
+            "title": "5. (6-7층) v-would (VR). 몸동작게임"
+          },
+          {
+            "id": "i13",
+            "title": "6. (5층) 팀랩&포레스트"
+          },
+          {
+            "id": "i14",
+            "title": "Yuhi shokudo",
+            "time": "16:00 ~ 16:30",
+            "content": "<저녁식사>이동",
+            "cost": {
+              "amount": 50000,
+              "currency": "KRW"
+            },
+            "note": "도보 20분"
+          },
+          {
+            "id": "i15",
+            "title": "수제함바그&소고기구이 정식",
+            "time": "16:30 ~ 17:30",
+            "note": "*음료주문 필수"
+          },
+          {
+            "id": "i16",
+            "title": "모모치 해변",
+            "time": "17:30 ~ 18:30",
+            "content": "이동 및 노을구경, 해변구경",
+            "note": "도보 2분"
+          },
+          {
+            "id": "i17",
+            "title": "마크이즈",
+            "time": "18:30 ~ 19:30",
+            "content": "빵집 (Antique) 이동, 구매",
+            "cost": {
+              "amount": 20000,
+              "currency": "KRW"
+            },
+            "note": "도보 20분"
+          },
+          {
+            "id": "i18",
+            "title": "마사쇼스시",
+            "time": "19:30 ~ 21:00",
+            "content": "<야식> 스시",
+            "cost": {
+              "amount": 80000,
+              "currency": "KRW"
+            },
+            "note": "생선덮밥 필수"
+          },
+          {
+            "id": "i19",
+            "title": "편의점, 호텔",
+            "time": "21:00 ~ 22:00",
+            "content": "귀가 후 빵먹기",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            }
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2024-03-02",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i20",
+            "title": "다이묘",
+            "time": "08:45 ~ 09:30",
+            "content": "이동 및 구경"
+          },
+          {
+            "id": "i21",
+            "title": "텐진 지하상가",
+            "time": "09:30 ~ 10:30",
+            "content": "이동 및 구경, 간식먹기",
+            "cost": {
+              "amount": 10000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i22",
+            "title": "돈카츠 와카바",
+            "time": "10:30 ~ 11:00",
+            "content": "<아침식사> 이동",
+            "note": "11시 오픈, 도보 15분"
+          },
+          {
+            "id": "i23",
+            "title": "돈카츠",
+            "time": "11:00 ~ 12:00",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            },
+            "note": "현금만 가능"
+          },
+          {
+            "id": "i24",
+            "title": "아뮤 플라자",
+            "time": "12:00 ~ 14:00",
+            "content": "이동 및 구경",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            },
+            "note": "N 나나쿠마선 (지하철 15분)"
+          },
+          {
+            "id": "i25",
+            "title": "(5층) 디즈니스토어"
+          },
+          {
+            "id": "i26",
+            "title": "(8층) 포켓몬 센터 + 철도모형 전문점"
+          },
+          {
+            "id": "i27",
+            "title": "(옥상) 전망테라스"
+          },
+          {
+            "id": "i28",
+            "title": "오오야마 킷테",
+            "time": "14:00 ~ 15:00",
+            "content": "<점심식사> 모츠나베",
+            "cost": {
+              "amount": 45000,
+              "currency": "KRW"
+            },
+            "note": "도보 6분"
+          },
+          {
+            "id": "i29",
+            "title": "스미요시 신사",
+            "time": "15:00 ~ 16:00",
+            "content": "구경 및 산책",
+            "note": "도보 15분"
+          },
+          {
+            "id": "i30",
+            "title": "캐널시티",
+            "time": "16:00 ~ 19:30",
+            "content": "이동 및 구경",
+            "cost": {
+              "amount": 50000,
+              "currency": "KRW"
+            },
+            "note": "도보 10분"
+          },
+          {
+            "id": "i31",
+            "title": "(4-5층) 게임샵, 스티커사진"
+          },
+          {
+            "id": "i32",
+            "title": "(2층) 디즈니스토어, 산리오, 토토로샵"
+          },
+          {
+            "id": "i33",
+            "title": "메인 분수쇼",
+            "note": "7시부터 시작"
+          },
+          {
+            "id": "i34",
+            "title": "리버크루즈",
+            "time": "19:30 ~ 20:30",
+            "content": "음료들고 야경",
+            "cost": {
+              "amount": 40000,
+              "currency": "KRW"
+            },
+            "note": "인터넷 예약(1인 15000원 정도?)"
+          },
+          {
+            "id": "i35",
+            "title": "하카타 토리카와야키 구",
+            "time": "20:30 ~ 22:00",
+            "content": "<저녁식사>꼬치",
+            "cost": {
+              "amount": 65000,
+              "currency": "KRW"
+            },
+            "note": "예약 번호 (RAA644533)"
+          },
+          {
+            "id": "i36",
+            "title": "텐진 돈키호테",
+            "time": "22:00 ~ 24:00",
+            "content": "쇼핑",
+            "cost": {
+              "amount": 100000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i37",
+            "title": "편의점,호텔",
+            "time": "24:00~",
+            "content": "귀가",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            }
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2024-03-03",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i38",
+            "title": "기상, 퇴실",
+            "time": "08:00 ~ 10:15"
+          },
+          {
+            "id": "i39",
+            "title": "하카타 역",
+            "time": "10:15 ~ 10:30",
+            "content": "이동"
+          },
+          {
+            "id": "i40",
+            "title": "하카타 우오가시",
+            "time": "10:30 ~ 12:00",
+            "content": "<점심식사> 스시",
+            "cost": {
+              "amount": 100000,
+              "currency": "KRW"
+            },
+            "note": "11시 오픈"
+          },
+          {
+            "id": "i41",
+            "title": "후쿠오카 공항",
+            "time": "12:00 ~12:30",
+            "content": "이동"
+          },
+          {
+            "id": "i42",
+            "title": "빠빠이 ㅠㅠ",
+            "time": "15:40~"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "fuk-f1",
+        "category": "유심",
+        "cost": {
+          "amount": 25000,
+          "currency": "KRW"
+        },
+        "content": "유심칩"
+      },
+      {
+        "id": "fuk-f2",
+        "category": "교통비",
+        "cost": {
+          "amount": 40000,
+          "currency": "KRW"
+        },
+        "content": "비상교통비"
+      }
+    ],
+    "checklist": [
+      {
+        "id": "fuk-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "fuk-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "fuk-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "fuk-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "tokyo-2026-05",
+    "title": "도쿄 여행",
+    "country": "일본",
+    "city": "도쿄",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-25",
+    "coverEmoji": "🗼",
+    "themeColor": "peach",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-05-23",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i1",
+            "title": "출발",
+            "time": "04:40 ~ 07:10",
+            "content": "집 > 인천공항 제1터미널 단기주차장",
+            "cost": {
+              "amount": 30000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i2",
+            "title": "출국",
+            "time": "07:10 ~ 09:45",
+            "content": "인천공항 > 나리타공항",
+            "cost": {
+              "amount": 978800,
+              "currency": "KRW"
+            },
+            "note": "제주항공"
+          },
+          {
+            "id": "i3",
+            "title": "도착 및 이동",
+            "time": "09:45 ~ 11:20",
+            "content": "나리타공항 > 우에노역(게이세이 라인)",
+            "cost": {
+              "amount": 79200,
+              "currency": "KRW"
+            },
+            "note": "스카이라이너 티켓(편도 4장), 지하철패스권 교환해야 함"
+          },
+          {
+            "id": "i4",
+            "title": "숙소 체크인",
+            "time": "11:20 ~ 12:30",
+            "content": "짐맡기고 놀러출발",
+            "cost": {
+              "amount": 357713,
+              "currency": "KRW"
+            },
+            "note": "APA 호텔 우에노 에키미나미 (APA Hotel Ueno Ekiminami)"
+          },
+          {
+            "id": "i5",
+            "title": "간단한 간식",
+            "content": "편의점 & 길거리",
+            "cost": {
+              "amount": 700,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i6",
+            "title": "이동",
+            "time": "12:30 ~ 13:00",
+            "content": "오카치마치역 > 이케부쿠로역",
+            "cost": {
+              "amount": 420,
+              "currency": "JPY"
+            },
+            "note": "25분 소요 (JR노선)"
+          },
+          {
+            "id": "i7",
+            "title": "[v]이케부쿠로",
+            "time": "13:00 ~ 14:30",
+            "content": "점심식사 - 이로하",
+            "cost": {
+              "amount": 5000,
+              "currency": "JPY"
+            },
+            "note": "규카츠 (웨이팅)"
+          },
+          {
+            "id": "i8",
+            "title": "애니메이트 & 션샤인시티",
+            "time": "14:30 ~ 16:30",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            },
+            "note": "지브리샵(션샤인시티)"
+          },
+          {
+            "id": "i9",
+            "title": "이동",
+            "time": "16:30 ~ 17:00",
+            "content": "이케부쿠로역 > 메이지진구마에역",
+            "note": "20분 소요 (후쿠토신선-갈색)"
+          },
+          {
+            "id": "i10",
+            "title": "[v]하라주쿠",
+            "time": "17:00 ~ 18:30",
+            "content": "다케시타거리",
+            "cost": {
+              "amount": 1500,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i11",
+            "title": "하라주쿠 > 캣스트리트 > 시부야",
+            "time": "18:30 ~ 19:00",
+            "cost": {
+              "amount": 2000,
+              "currency": "JPY"
+            },
+            "note": "도보로 구경하면서 이동"
+          },
+          {
+            "id": "i12",
+            "title": "[v]시부야",
+            "time": "19:00 ~ 21:00",
+            "content": "사쿠라 스테이지 & 미야시타파크 등",
+            "cost": {
+              "amount": 1500,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i13",
+            "title": "니쿠야 노 다이도코로",
+            "time": "21:20 ~ 22:20",
+            "cost": {
+              "amount": 12000,
+              "currency": "JPY"
+            },
+            "note": "와규 야키니쿠 Nikuya no Daidokoro Dogenzaka [예약]"
+          },
+          {
+            "id": "i14",
+            "title": "이동",
+            "time": "22:20 ~ 23:00",
+            "content": "시부야역 > 우에노히로코지역",
+            "note": "35분 소요 (긴자선-주황색)"
+          },
+          {
+            "id": "i15",
+            "title": "돈키호테",
+            "time": "23:00 ~ 24:00",
+            "content": "숙소에 캐리어랑 짐 두고 바로 이동",
+            "cost": {
+              "amount": 6000,
+              "currency": "JPY"
+            },
+            "note": "우에노점 or 오카치마치점"
+          },
+          {
+            "id": "i16",
+            "title": "취침",
+            "time": "24:00 ~ 06:30",
+            "content": "편의점에서 다음날 간단한 아침 및 기념품 구매",
+            "cost": {
+              "amount": 3000,
+              "currency": "JPY"
+            },
+            "note": "새벽 2시전에는 잘 수 있도록"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-05-24",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i17",
+            "title": "기상",
+            "time": "06:20 ~ 07:40",
+            "content": "나갈준비"
+          },
+          {
+            "id": "i18",
+            "title": "이동",
+            "time": "07:40 ~ 08:20",
+            "content": "우에노카치마치역 > 아카바네바시역",
+            "note": "40분 소요"
+          },
+          {
+            "id": "i19",
+            "title": "[v]도쿄타워",
+            "time": "08:20 ~ 08:50",
+            "content": "시바공원에서 사진찍기",
+            "note": "비오면 패스"
+          },
+          {
+            "id": "i20",
+            "title": "이동",
+            "time": "08:50 ~ 09:40",
+            "content": "아카바네바시역 > 롯폰기역 > 나카메구로역 > 지유가오카역",
+            "cost": {
+              "amount": 360,
+              "currency": "JPY"
+            },
+            "note": "45분 소요"
+          },
+          {
+            "id": "i21",
+            "title": "[v]지유가오카",
+            "time": "09:40 ~ 13:00",
+            "content": "아점식사 - 플리퍼즈(FLIPPER’S)",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            },
+            "note": "수플레/브런치 (웨이팅)"
+          },
+          {
+            "id": "i22",
+            "title": "거리 및 소품샵 구경",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            },
+            "note": "워터프론트(우양산 매장)"
+          },
+          {
+            "id": "i23",
+            "title": "이동",
+            "time": "13:00 ~ 13:55",
+            "content": "지유가오카역 > 시모키타자와역",
+            "cost": {
+              "amount": 640,
+              "currency": "JPY"
+            },
+            "note": "45분 소요 (시부야에서 게이오 이노(남색노선))"
+          },
+          {
+            "id": "i24",
+            "title": "[v]시모키타자와",
+            "time": "13:55 ~ 16:00",
+            "content": "시모키타자와 구경",
+            "cost": {
+              "amount": 1500,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i25",
+            "title": "이동",
+            "time": "16:00 ~ 16:40",
+            "content": "시모키타자와역 > 시부야역 > 긴자역",
+            "cost": {
+              "amount": 280,
+              "currency": "JPY"
+            },
+            "note": "35분 소요 (시부야역 긴자선-주황색)"
+          },
+          {
+            "id": "i26",
+            "title": "[v]긴자",
+            "time": "16:40 ~ 21:00",
+            "content": "우양산 매장 - 도쿄노블(7시 마감), WPC(8시 마감)"
+          },
+          {
+            "id": "i27",
+            "title": "[v]마루노우치",
+            "content": "도쿄역 야경 및 상점가 구경",
+            "cost": {
+              "amount": 2000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i28",
+            "title": "저녁식사 - 키지(kiji)",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            },
+            "note": "오코노미야키 (웨이팅)"
+          },
+          {
+            "id": "i29",
+            "title": "이동",
+            "time": "21:00 ~ 21:20",
+            "content": "도쿄역 > 아키하바라역",
+            "cost": {
+              "amount": 320,
+              "currency": "JPY"
+            },
+            "note": "10분 소요 (JR노선)"
+          },
+          {
+            "id": "i30",
+            "title": "[v]아키하바라",
+            "time": "21:20 ~ 22:30",
+            "content": "게임",
+            "cost": {
+              "amount": 3000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i31",
+            "title": "이동",
+            "time": "22:30 ~ 22:50",
+            "content": "아키하바라역 > 우에노역",
+            "note": "도보 이동"
+          },
+          {
+            "id": "i32",
+            "title": "[v]우에노",
+            "time": "22:50 ~ 01:00",
+            "content": "야식 - 야키토리 토리키조쿠 우에노 주오도리점",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i33",
+            "title": "우에노 주변 구경"
+          },
+          {
+            "id": "i34",
+            "title": "우에노 공원 산책"
+          },
+          {
+            "id": "i35",
+            "title": "취침",
+            "time": "~ 08:30"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2026-05-25",
+        "weekday": "MON",
+        "items": [
+          {
+            "id": "i36",
+            "title": "기상 후 체크아웃",
+            "time": "08:30 ~ 09:00"
+          },
+          {
+            "id": "i37",
+            "title": "이동",
+            "time": "09:50 ~ 10:50",
+            "content": "우에노역(게이세이 라인) > 나리타공항"
+          },
+          {
+            "id": "i38",
+            "title": "귀국",
+            "time": "13:15 ~ 16:05"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "tk26-f1",
+        "category": "교통비",
+        "cost": {
+          "amount": 27200,
+          "currency": "KRW"
+        },
+        "content": "도쿄패스권 48시간 * 2"
+      },
+      {
+        "id": "tk26-f2",
+        "category": "비상금",
+        "cost": {
+          "amount": 3000,
+          "currency": "JPY"
+        }
+      }
+    ],
+    "checklist": [
+      {
+        "id": "tk26-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "tk26-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "tk26-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "tk26-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "honeymoon-2027-01",
+    "title": "신혼여행 (도쿄 & 하와이)",
+    "country": "일본 · 미국",
+    "city": "도쿄 · 호놀룰루 · 도쿄",
+    "startDate": "2027-01-16",
+    "endDate": "2027-01-28",
+    "coverEmoji": "💍",
+    "themeColor": "lavender",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2027-01-16",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i1",
+            "title": "시모키타자와"
+          },
+          {
+            "id": "i2",
+            "title": "카구라자카"
+          },
+          {
+            "id": "i3",
+            "title": "도쿄역"
+          },
+          {
+            "id": "i4",
+            "title": "아자부다이힐즈"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2027-01-17",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i5",
+            "title": "가와구치코"
+          },
+          {
+            "id": "i6",
+            "title": "렌트"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2027-01-18",
+        "weekday": "MON",
+        "items": [
+          {
+            "id": "i7",
+            "title": "디즈니씨"
+          },
+          {
+            "id": "i8",
+            "title": "시부야 신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "2027-01-19",
+        "weekday": "TUE",
+        "items": [
+          {
+            "id": "i9",
+            "title": "기상 & 준비",
+            "time": "11:00 ~ 13:00",
+            "note": "레이트 체크아웃"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "date": "2027-01-19",
+        "weekday": "TUE",
+        "items": [
+          {
+            "id": "i1",
+            "title": "출국",
+            "time": "21:00 ~ 08:46",
+            "content": "HND > HNL",
+            "cost": {
+              "amount": 2200000,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i2",
+            "title": "도착 및 이동",
+            "time": "09:45 ~ 11:20"
+          },
+          {
+            "id": "i3",
+            "title": "숙소 체크인",
+            "time": "11:20 ~ 12:30",
+            "content": "인터내셔널 마켓"
+          },
+          {
+            "id": "i4",
+            "title": "간단한 간식",
+            "content": "로얄 하와이안 센터"
+          },
+          {
+            "id": "i5",
+            "title": "이동",
+            "time": "12:30 ~ 13:00"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "date": "2027-01-20",
+        "weekday": "WED",
+        "items": [
+          {
+            "id": "i6",
+            "title": "이올라니 궁전/ 카카아코/ 알라모아나 센터"
+          },
+          {
+            "id": "i7",
+            "title": "하나우마 베이 스노쿨링"
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "date": "2027-01-21",
+        "weekday": "THU",
+        "items": [
+          {
+            "id": "i8",
+            "title": "쿠랑로아 랜치 + 쥬라기 밸리"
+          },
+          {
+            "id": "i9",
+            "title": "호로말루히아 보타니컬 가든"
+          }
+        ]
+      },
+      {
+        "day": 8,
+        "date": "2027-01-22",
+        "weekday": "FRI",
+        "items": [
+          {
+            "id": "i10",
+            "title": "다이아몬드 헤드"
+          },
+          {
+            "id": "i11",
+            "title": "와이마날로 비치"
+          },
+          {
+            "id": "i12",
+            "title": "카일루아 타운"
+          },
+          {
+            "id": "i13",
+            "title": "마카푸우"
+          }
+        ]
+      },
+      {
+        "day": 9,
+        "date": "2027-01-23",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "i14",
+            "title": "라니아케아 비치"
+          },
+          {
+            "id": "i15",
+            "title": "할레이바올드타운"
+          },
+          {
+            "id": "i16",
+            "title": "와이메아 밸리"
+          }
+        ]
+      },
+      {
+        "day": 10,
+        "date": "2027-01-24",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "i17",
+            "title": "HNL > HND"
+          }
+        ]
+      },
+      {
+        "day": 11,
+        "date": "2027-01-25",
+        "weekday": "MON",
+        "items": [
+          {
+            "id": "hm3-i1",
+            "title": "신주쿠&시부야"
+          }
+        ]
+      },
+      {
+        "day": 12,
+        "date": "2027-01-26",
+        "weekday": "TUE",
+        "items": [
+          {
+            "id": "hm3-i2",
+            "title": "워너브라더스"
+          },
+          {
+            "id": "hm3-i3",
+            "title": "요코하마"
+          }
+        ]
+      },
+      {
+        "day": 13,
+        "date": "2027-01-27",
+        "weekday": "WED",
+        "items": [
+          {
+            "id": "hm3-i4",
+            "title": "가마쿠라"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "hm-f1",
+        "category": "교통비",
+        "cost": {
+          "amount": 27200,
+          "currency": "KRW"
+        },
+        "content": "도쿄패스권 48시간 * 2"
+      },
+      {
+        "id": "hm-f2",
+        "category": "비상금",
+        "cost": {
+          "amount": 3000,
+          "currency": "JPY"
+        }
+      },
+      {
+        "id": "hm2-f1",
+        "category": "교통비",
+        "cost": {
+          "amount": 27200,
+          "currency": "KRW"
+        },
+        "content": "도쿄패스권 48시간 * 2"
+      },
+      {
+        "id": "hm2-f2",
+        "category": "비상금",
+        "cost": {
+          "amount": 3000,
+          "currency": "JPY"
+        }
+      }
+    ],
+    "checklist": [
+      {
+        "id": "hm-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": false
+      },
+      {
+        "id": "hm-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": false
+      },
+      {
+        "id": "hm-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": false
+      },
+      {
+        "id": "hm-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": false
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "tokyo-2018-06",
+    "title": "도쿄 여행 (1박2일)",
+    "country": "일본",
+    "city": "도쿄",
+    "startDate": "2018-06-23",
+    "endDate": "2018-06-24",
+    "coverEmoji": "🍥",
+    "themeColor": "peach",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2018-06-23",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "tokyo-2018-06-i1",
+            "title": "신주쿠 돈친칸"
+          },
+          {
+            "id": "tokyo-2018-06-i2",
+            "title": "점심식사 - 돈카츠"
+          },
+          {
+            "id": "tokyo-2018-06-i3",
+            "title": "하라주쿠"
+          },
+          {
+            "id": "tokyo-2018-06-i4",
+            "title": "루크스 랍스터 빵"
+          },
+          {
+            "id": "tokyo-2018-06-i5",
+            "title": "도쿄타워"
+          },
+          {
+            "id": "tokyo-2018-06-i6",
+            "title": "사진 찍기"
+          },
+          {
+            "id": "tokyo-2018-06-i7",
+            "title": "오다이바"
+          },
+          {
+            "id": "tokyo-2018-06-i8",
+            "title": "오오에도 온천"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2018-06-24",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "tokyo-2018-06-i9",
+            "title": "자유시간 및 귀국 준비",
+            "content": "오전 자유시간"
+          },
+          {
+            "id": "tokyo-2018-06-i10",
+            "title": "귀국",
+            "content": "점심시간대 비행기로 복귀"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "tokyo-2018-06-f1",
+        "category": "예상 총경비",
+        "cost": {
+          "amount": 900000,
+          "currency": "KRW"
+        },
+        "content": "정확한 금액 기억 안 남 — 100만원 이하로 기억 (추정치)"
+      }
+    ],
+    "checklist": [
+      {
+        "id": "tokyo-2018-06-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2018-06-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2018-06-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2018-06-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "tokyo-2018-11",
+    "title": "도쿄 여행 (1박2일)",
+    "country": "일본",
+    "city": "도쿄",
+    "startDate": "2018-11-10",
+    "endDate": "2018-11-11",
+    "coverEmoji": "🎡",
+    "themeColor": "sky",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2018-11-10",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "tokyo-2018-11-i1",
+            "title": "시부야"
+          },
+          {
+            "id": "tokyo-2018-11-i2",
+            "title": "레드락 덮밥 (점심식사)"
+          },
+          {
+            "id": "tokyo-2018-11-i3",
+            "title": "요코하마"
+          },
+          {
+            "id": "tokyo-2018-11-i4",
+            "title": "아카렌가 창고 구경"
+          },
+          {
+            "id": "tokyo-2018-11-i5",
+            "title": "요코하마 놀이공원"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2018-11-11",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "tokyo-2018-11-i6",
+            "title": "자유시간 및 귀국 준비",
+            "content": "오전 자유시간"
+          },
+          {
+            "id": "tokyo-2018-11-i7",
+            "title": "귀국",
+            "content": "점심시간대 비행기로 복귀"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "tokyo-2018-11-f1",
+        "category": "예상 총경비",
+        "cost": {
+          "amount": 700000,
+          "currency": "KRW"
+        },
+        "content": "세 번의 도쿄 여행 중 가장 저렴했음 (추정치, 정확한 금액 기억 안 남)"
+      }
+    ],
+    "checklist": [
+      {
+        "id": "tokyo-2018-11-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2018-11-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2018-11-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2018-11-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  },
+  {
+    "id": "tokyo-2019-09-short",
+    "title": "도쿄 여행 (1박2일)",
+    "country": "일본",
+    "city": "도쿄",
+    "startDate": "2019-09-28",
+    "endDate": "2019-09-29",
+    "coverEmoji": "🍢",
+    "themeColor": "mint",
+    "people": 2,
+    "days": [
+      {
+        "day": 1,
+        "date": "2019-09-28",
+        "weekday": "SAT",
+        "items": [
+          {
+            "id": "tokyo-2019-09-short-i1",
+            "title": "마이센"
+          },
+          {
+            "id": "tokyo-2019-09-short-i2",
+            "title": "미슐랭 돈카츠 (점심식사)"
+          },
+          {
+            "id": "tokyo-2019-09-short-i3",
+            "title": "아키하바라"
+          },
+          {
+            "id": "tokyo-2019-09-short-i4",
+            "title": "구경"
+          },
+          {
+            "id": "tokyo-2019-09-short-i5",
+            "title": "아사쿠사"
+          },
+          {
+            "id": "tokyo-2019-09-short-i6",
+            "title": "센소지 구경"
+          },
+          {
+            "id": "tokyo-2019-09-short-i7",
+            "title": "야키니쿠집"
+          },
+          {
+            "id": "tokyo-2019-09-short-i8",
+            "title": "저녁식사"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2019-09-29",
+        "weekday": "SUN",
+        "items": [
+          {
+            "id": "tokyo-2019-09-short-i9",
+            "title": "자유시간 및 귀국 준비",
+            "content": "오전 자유시간"
+          },
+          {
+            "id": "tokyo-2019-09-short-i10",
+            "title": "귀국",
+            "content": "점심시간대 비행기로 복귀"
+          }
+        ]
+      }
+    ],
+    "fixedExpenses": [
+      {
+        "id": "tokyo-2019-09-short-f1",
+        "category": "예상 총경비",
+        "cost": {
+          "amount": 950000,
+          "currency": "KRW"
+        },
+        "content": "정확한 금액 기억 안 남 — 100만원 이하로 기억 (추정치)"
+      }
+    ],
+    "checklist": [
+      {
+        "id": "tokyo-2019-09-short-c1",
+        "category": "서류",
+        "label": "여권 확인",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2019-09-short-c2",
+        "category": "서류",
+        "label": "항공권/숙소 예약 확인",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2019-09-short-c3",
+        "category": "짐",
+        "label": "유심/와이파이",
+        "checked": true
+      },
+      {
+        "id": "tokyo-2019-09-short-c4",
+        "category": "짐",
+        "label": "충전기 및 보조배터리",
+        "checked": true
+      }
+    ],
+    "places": []
+  }
+]

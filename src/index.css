@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* SJ Travel 다이어리 — 아기자기하고 따뜻한 톤의 테마 토큰
+   실제 컬러/폰트는 UI 확정 단계에서 얼마든지 조정 가능한 "가안"입니다. */
+@theme {
+  --font-display: "Jua", "Gaegu", sans-serif; /* 제목, 포인트용 */
+  --font-body: "Gaegu", sans-serif; /* 본문용 손글씨 느낌 */
+
+  /* 본문 글자 크기 단계를 한 칸씩 키움.
+     Gaegu는 같은 px에서도 글자가 작게 보이는 폰트라 기본값이 답답했음.
+     페이지 타이틀(2xl / 3xl)은 원래 크기 그대로 둠. */
+  --text-xs: 0.875rem; /* 12 → 14px */
+  --text-xs--line-height: 1.375rem;
+  --text-sm: 1rem; /* 14 → 16px */
+  --text-sm--line-height: 1.5rem;
+  --text-base: 1.125rem; /* 16 → 18px */
+  --text-base--line-height: 1.75rem;
+  --text-lg: 1.25rem; /* 18 → 20px */
+  --text-lg--line-height: 1.75rem;
+  --text-xl: 1.375rem; /* 20 → 22px */
+  --text-xl--line-height: 1.875rem;
+  /* 2xl(24px) / 3xl(30px) = 헤더·페이지 타이틀은 요청대로 그대로 둠 */
+
+  --color-paper: #ffffff; /* 페이지 배경 */
+  --color-cream: #fff9f0; /* 금액 칩 등 포인트 배경 */
+  --color-blush: #ffe1e6;
+  --color-peach: #ffd8b8;
+  --color-mint: #d5f2e3;
+  --color-sky: #d9ecff;
+  --color-lavender: #e8def8;
+  --color-brown: #7a5c4f;
+  --color-ink: #4a3f35;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
