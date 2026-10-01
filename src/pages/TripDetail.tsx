@@ -130,7 +130,7 @@ export function TripDetail() {
                     className="block w-full object-cover"
                   />
                 )}
-                <details open className="p-4">
+                <details className="p-4">
                   <summary className="font-display cursor-pointer text-lg">
                     Day {day.day} ({day.weekday}) {day.date}
                   </summary>
