@@ -30,6 +30,7 @@ export interface DayPlan {
   day: number; // Day 1, Day 2 ...
   date: string; // ISO date "2026-05-23"
   weekday?: string; // "SAT" 같은 표기용 (없으면 date로 계산)
+  image?: string; // Day 카드 위 배너 이미지. src/data/dayImages.ts 의 키 (예: "tokyo_1")
   items: ScheduleItem[];
 }
 

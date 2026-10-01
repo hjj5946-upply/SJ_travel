@@ -10,6 +10,10 @@ const DATE = /^\d{4}-\d{2}-\d{2}$/;
 // 자정을 넘긴 일정을 "24:10" 처럼 적는 습관이 있어 시는 29까지 허용.
 const TIME = /^(?:[0-2]?\d:[0-5]\d\s*(?:~\s*(?:[0-2]?\d:[0-5]\d)?)?|~\s*[0-2]?\d:[0-5]\d)$/;
 
+// Day 배너 이미지 키는 src/data/dayImages.ts 에 등록된 것만 보입니다.
+const dayImagesSrc = readFileSync(new URL("../src/data/dayImages.ts", import.meta.url), "utf8");
+const DAY_IMAGE_KEYS = [...dayImagesSrc.matchAll(/^\s{2}(\w+):/gm)].map((m) => m[1]);
+
 const errors = [];
 const warnings = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);
@@ -76,6 +80,8 @@ trips.forEach((trip, ti) => {
     if (!DATE.test(day.date ?? "")) err(dw, `date 는 YYYY-MM-DD 형식이어야 합니다 (${day.date})`);
     else if (DATE.test(trip.startDate ?? "") && (day.date < trip.startDate || day.date > trip.endDate))
       warn(dw, `date ${day.date} 가 여행 기간(${trip.startDate} ~ ${trip.endDate}) 밖입니다`);
+    if (day.image !== undefined && !DAY_IMAGE_KEYS.includes(day.image))
+      err(dw, `image "${day.image}" 가 src/data/dayImages.ts 에 없습니다 (등록된 키: ${DAY_IMAGE_KEYS.join(" / ") || "없음"})`);
     if (!Array.isArray(day.items)) return err(dw, "items 가 배열이 아닙니다");
 
     const seenItemIds = new Set();

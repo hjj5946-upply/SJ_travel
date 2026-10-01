@@ -620,6 +620,14 @@
     "fixedExpenses": [
       {
         "id": "ng25-f1",
+        "category": "유심",
+        "cost": {
+          "amount": 19800,
+          "currency": "KRW"
+        }
+      },
+      {
+        "id": "ng25-f2",
         "category": "비상금",
         "cost": {
           "amount": 4100,
@@ -627,7 +635,7 @@
         }
       },
       {
-        "id": "ng25-f2",
+        "id": "ng25-f3",
         "category": "교통비",
         "cost": {
           "amount": 1000,
@@ -1292,6 +1300,14 @@
     "fixedExpenses": [
       {
         "id": "tpe-f1",
+        "category": "유심",
+        "cost": {
+          "amount": 25000,
+          "currency": "KRW"
+        }
+      },
+      {
+        "id": "tpe-f2",
         "category": "비상금",
         "cost": {
           "amount": 400,
@@ -2305,6 +2321,15 @@
     "fixedExpenses": [
       {
         "id": "tk23-f1",
+        "category": "도쿄메트로",
+        "cost": {
+          "amount": 36000,
+          "currency": "KRW"
+        },
+        "content": "지하철 패스권(48H)"
+      },
+      {
+        "id": "tk23-f2",
         "category": "유심",
         "cost": {
           "amount": 37200,
@@ -2313,7 +2338,7 @@
         "content": "유심칩"
       },
       {
-        "id": "tk23-f2",
+        "id": "tk23-f3",
         "category": "도쿠나이패스",
         "cost": {
           "amount": 22800,
@@ -2322,7 +2347,7 @@
         "content": "JR 패스권(1일)"
       },
       {
-        "id": "tk23-f3",
+        "id": "tk23-f4",
         "category": "교통비",
         "cost": {
           "amount": 20000,
@@ -3131,6 +3156,15 @@
     "fixedExpenses": [
       {
         "id": "tk26-f1",
+        "category": "유심",
+        "cost": {
+          "amount": 30000,
+          "currency": "KRW"
+        },
+        "content": "KDDI - 3일 무제한(5G)"
+      },
+      {
+        "id": "tk26-f2",
         "category": "교통비",
         "cost": {
           "amount": 27200,
@@ -3139,7 +3173,7 @@
         "content": "도쿄패스권 48시간 * 2"
       },
       {
-        "id": "tk26-f2",
+        "id": "tk26-f3",
         "category": "비상금",
         "cost": {
           "amount": 3000,
@@ -3177,7 +3211,7 @@
   },
   {
     "id": "honeymoon-2027-01",
-    "title": "신혼여행",
+    "title": "신혼여행 (도쿄 & 하와이)",
     "country": "일본 · 미국",
     "city": "도쿄 · 호놀룰루 · 도쿄",
     "startDate": "2027-01-16",
@@ -3190,22 +3224,137 @@
         "day": 1,
         "date": "2027-01-16",
         "weekday": "SAT",
+        "image": "tokyo_1",
         "items": [
           {
             "id": "i1",
-            "title": "시모키타자와"
+            "title": "이동",
+            "time": "07:15 ~ 09:40",
+            "content": "인천공항(T1) -> 나리타공항(T3)",
+            "cost": {
+              "amount": 911600,
+              "currency": "KRW"
+            }
           },
           {
             "id": "i2",
-            "title": "카구라자카"
+            "title": "입국수속",
+            "time": "09:40 ~ 10:40",
+            "content": "T3 -> T2"
           },
           {
             "id": "i3",
-            "title": "도쿄역"
+            "title": "이동",
+            "time": "10:40 ~ 12:00",
+            "content": "나리타공항(T2) -> 신주쿠역",
+            "cost": {
+              "amount": 100000,
+              "currency": "KRW"
+            },
+            "note": "NEX 왕복권 클록구매"
           },
           {
             "id": "i4",
-            "title": "아자부다이힐즈"
+            "title": "체크인",
+            "time": "12:00 ~ 12:20",
+            "content": "신주쿠 워싱턴 호텔",
+            "cost": {
+              "amount": 440873,
+              "currency": "KRW"
+            }
+          },
+          {
+            "id": "i5",
+            "title": "이동",
+            "time": "12:20 ~ 12:40",
+            "content": "신주쿠역[JY] -> 시부야역[DT] -> 산겐자야역",
+            "cost": {
+              "amount": 614,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i6",
+            "title": "산겐자야",
+            "time": "12:40 ~ 14:40",
+            "content": "구경 & 점심식사",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i7",
+            "title": "이동",
+            "time": "14:40 ~ 15:10",
+            "content": "구경하면서 도보 이동"
+          },
+          {
+            "id": "i8",
+            "title": "시모키타자와",
+            "time": "15:10 ~ 17:20",
+            "content": "구경 및 간식",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i9",
+            "title": "이동",
+            "time": "17:20 ~ 17:50",
+            "content": "시모키타자와역[IN] -> 시부야역[H] -> 카미야초역",
+            "cost": {
+              "amount": 720,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i10",
+            "title": "아자부다이 힐즈",
+            "time": "17:50 ~ 18:50",
+            "content": "구경 & 쇼핑",
+            "cost": {
+              "amount": 3000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i11",
+            "title": "도쿄타워",
+            "time": "18:50 ~ 19:30",
+            "content": "구경 & 사진찍기"
+          },
+          {
+            "id": "i12",
+            "title": "이동",
+            "time": "19:30 ~ 20:00",
+            "content": "카미야초역[H] -> 롯폰기역[E] -> 신주쿠역",
+            "cost": {
+              "amount": 660,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i13",
+            "title": "신주쿠",
+            "time": "20:00 ~ 21:40",
+            "content": "구경 및 저녁식사",
+            "cost": {
+              "amount": 5000,
+              "currency": "JPY"
+            },
+            "note": "츠루동탄(우동&카레)"
+          },
+          {
+            "id": "i14",
+            "title": "숙소",
+            "time": "21:40 ~",
+            "content": "편의점에서 간식 사들고 숙소",
+            "cost": {
+              "amount": 2000,
+              "currency": "JPY"
+            }
           }
         ]
       },
@@ -3215,12 +3364,24 @@
         "weekday": "SUN",
         "items": [
           {
-            "id": "i5",
-            "title": "가와구치코"
+            "id": "i15",
+            "title": "이동",
+            "time": "07:00 ~ 09:30",
+            "content": "신주쿠 -> 가와구치코 (고속버스)",
+            "cost": {
+              "amount": 8800,
+              "currency": "JPY"
+            },
+            "note": "바스타 신주쿠"
           },
           {
-            "id": "i6",
-            "title": "렌트"
+            "id": "i16",
+            "title": "가와구치코",
+            "time": "09:30 ~ 16:00"
+          },
+          {
+            "id": "i17",
+            "title": "하코네"
           }
         ]
       },
@@ -3230,12 +3391,71 @@
         "weekday": "MON",
         "items": [
           {
-            "id": "i7",
-            "title": "디즈니씨"
+            "id": "i18",
+            "title": "이동",
+            "time": "07:20 ~ 08:20",
+            "content": "신주쿠역[JC] -> 도쿄역[JE] -> 마이하마역[디즈니] -> 디즈니씨",
+            "cost": {
+              "amount": 1450,
+              "currency": "JPY"
+            }
           },
           {
-            "id": "i8",
-            "title": "시부야 신주쿠"
+            "id": "i19",
+            "title": "디즈니씨",
+            "time": "08:20 ~ 19:30",
+            "content": "디즈니씨 여행",
+            "cost": {
+              "amount": 5000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i20",
+            "title": "이동",
+            "time": "19:30 ~ 20:30",
+            "content": "디즈니씨 -> 마이하마역[JE] -> 도쿄역[JY] -> 시부야역",
+            "cost": {
+              "amount": 1450,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i21",
+            "title": "시부야",
+            "time": "20:30 ~ 22:00",
+            "content": "구경 및 저녁식사",
+            "cost": {
+              "amount": 5000,
+              "currency": "JPY"
+            },
+            "note": "니기리테(초밥)"
+          },
+          {
+            "id": "i22",
+            "title": "이동",
+            "time": "22:00 ~ 22:10",
+            "content": "구경하면서 도보 이동",
+            "cost": {
+              "amount": 320,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i23",
+            "title": "신주쿠",
+            "time": "22:10 ~ 23:00",
+            "content": "구경 및 야식 / 하이보르",
+            "cost": {
+              "amount": 5000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i24",
+            "title": "숙소",
+            "time": "23:00 ~",
+            "content": "편의점에서 간식 사들고 숙소"
           }
         ]
       },
@@ -3245,10 +3465,95 @@
         "weekday": "TUE",
         "items": [
           {
-            "id": "i9",
-            "title": "기상 & 준비",
-            "time": "11:00 ~ 13:00",
-            "note": "레이트 체크아웃"
+            "id": "i25",
+            "title": "퇴실 & 이동",
+            "time": "11:00 ~ 11:35",
+            "content": "신주쿠역[JY] -> 시나가와역",
+            "cost": {
+              "amount": 520,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i26",
+            "title": "시나가와역",
+            "time": "11:35 ~ 12:00",
+            "content": "근처 짐 맡기기",
+            "cost": {
+              "amount": 8000,
+              "currency": "JPY"
+            },
+            "note": "캐리어1개(7일), 1개(5시간)"
+          },
+          {
+            "id": "i27",
+            "title": "이동",
+            "time": "12:00 ~ 12:15",
+            "content": "다카나와다이역[A] -> 도고시역",
+            "cost": {
+              "amount": 360,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i28",
+            "title": "도고시 긴자 상점가",
+            "time": "12:15 ~ 15:00",
+            "content": "거리 구경 및 점심식사",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i29",
+            "title": "이동",
+            "time": "15:00 ~ 15:15",
+            "content": "도고시역[A] -> 다카나와다이역",
+            "cost": {
+              "amount": 360,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i30",
+            "title": "시나가와역",
+            "time": "15:15 ~ 16:30",
+            "content": "인근 쇼핑몰/상점가 구경",
+            "cost": {
+              "amount": 2000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i31",
+            "title": "짐찾기",
+            "time": "16:30 ~ 17:00"
+          },
+          {
+            "id": "i32",
+            "title": "이동",
+            "time": "17:00 ~ 17:20",
+            "content": "시나가와역[KK] -> 하네다공항(T3)",
+            "cost": {
+              "amount": 660,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i33",
+            "title": "하네다공항",
+            "time": "17:20 ~ 18:00",
+            "content": "짐정리 및 공항에서 놀기",
+            "cost": {
+              "amount": 2000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i34",
+            "title": "체크인/백드랍 & 출국준비",
+            "time": "18:00 ~ 21:00"
           }
         ]
       },
@@ -3256,6 +3561,7 @@
         "day": 5,
         "date": "2027-01-19",
         "weekday": "TUE",
+        "image": "hawaii_2",
         "items": [
           {
             "id": "i1",
@@ -3377,10 +3683,59 @@
         "day": 11,
         "date": "2027-01-25",
         "weekday": "MON",
+        "image": "tokyo_3",
         "items": [
           {
-            "id": "hm3-i1",
-            "title": "신주쿠&시부야"
+            "id": "i1",
+            "title": "하네다공항",
+            "time": "18:45 ~ 19:50",
+            "content": "도착 및 입국수속"
+          },
+          {
+            "id": "i2",
+            "title": "이동",
+            "time": "19:50 ~ 20:00",
+            "content": "하네다공항(T3)[KK] -> 시나가와역",
+            "cost": {
+              "amount": 660,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i3",
+            "title": "숙소",
+            "time": "20:00 ~ 20:30",
+            "content": "짐 찾고 체크인"
+          },
+          {
+            "id": "i4",
+            "title": "이동",
+            "time": "20:30 ~ 20:40",
+            "content": "시나가와역[JT] -> 신바시역",
+            "cost": {
+              "amount": 400,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i5",
+            "title": "신바시",
+            "time": "20:40 ~ 22:30",
+            "content": "구경 및 저녁식사",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i6",
+            "title": "숙소",
+            "time": "22:30 ~",
+            "content": "편의점 들리기",
+            "cost": {
+              "amount": 1500,
+              "currency": "JPY"
+            }
           }
         ]
       },
@@ -3390,12 +3745,24 @@
         "weekday": "TUE",
         "items": [
           {
-            "id": "hm3-i2",
-            "title": "워너브라더스"
+            "id": "i7",
+            "title": "이동",
+            "time": "07:20 ~ 08:30",
+            "content": "시나가와역[KK] -> 다이몬역[E] -> 도시마엔역",
+            "cost": {
+              "amount": 960,
+              "currency": "JPY"
+            }
           },
           {
-            "id": "hm3-i3",
-            "title": "요코하마"
+            "id": "i8",
+            "title": "해리포터 스튜디오",
+            "time": "08:30 ~ 14:30",
+            "content": "워너 브라더스 스튜디오",
+            "cost": {
+              "amount": 120000,
+              "currency": "KRW"
+            }
           }
         ]
       },
@@ -3405,8 +3772,29 @@
         "weekday": "WED",
         "items": [
           {
-            "id": "hm3-i4",
+            "id": "i9",
             "title": "가마쿠라"
+          },
+          {
+            "id": "i10",
+            "title": "요코하마"
+          },
+          {
+            "id": "i11",
+            "title": "가와사키"
+          }
+        ]
+      },
+      {
+        "day": 14,
+        "date": "2027-01-28",
+        "weekday": "THU",
+        "items": [
+          {
+            "id": "i12",
+            "title": "이동",
+            "time": "13:15 ~ 16:15",
+            "content": "나리타공항(T3) -> 인천공항(T1)"
           }
         ]
       }
@@ -3414,15 +3802,24 @@
     "fixedExpenses": [
       {
         "id": "hm-f1",
-        "category": "교통비",
+        "category": "유심/eSIM",
         "cost": {
-          "amount": 27200,
+          "amount": 57600,
           "currency": "KRW"
         },
-        "content": "도쿄패스권 48시간 * 2"
+        "content": "KDDI 무제한(5G) 4일 / 소프트 5G/10GB 4일"
       },
       {
         "id": "hm-f2",
+        "category": "교통비",
+        "cost": {
+          "amount": 70000,
+          "currency": "KRW"
+        },
+        "content": "인천공항 장기주차장 주차비"
+      },
+      {
+        "id": "hm-f3",
         "category": "비상금",
         "cost": {
           "amount": 3000,
@@ -3431,6 +3828,15 @@
       },
       {
         "id": "hm2-f1",
+        "category": "유심",
+        "cost": {
+          "amount": 30000,
+          "currency": "KRW"
+        },
+        "content": "KDDI - 3일 무제한(5G)"
+      },
+      {
+        "id": "hm2-f2",
         "category": "교통비",
         "cost": {
           "amount": 27200,
@@ -3439,7 +3845,33 @@
         "content": "도쿄패스권 48시간 * 2"
       },
       {
-        "id": "hm2-f2",
+        "id": "hm2-f3",
+        "category": "비상금",
+        "cost": {
+          "amount": 3000,
+          "currency": "JPY"
+        }
+      },
+      {
+        "id": "hm3-f1",
+        "category": "유심",
+        "cost": {
+          "amount": 30000,
+          "currency": "KRW"
+        },
+        "content": "KDDI - 3일 무제한(5G)"
+      },
+      {
+        "id": "hm3-f2",
+        "category": "교통비",
+        "cost": {
+          "amount": 27200,
+          "currency": "KRW"
+        },
+        "content": "도쿄패스권 48시간 * 2"
+      },
+      {
+        "id": "hm3-f3",
         "category": "비상금",
         "cost": {
           "amount": 3000,

@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { DAY_IMAGES } from "../data/dayImages";
 import { trips } from "../data/trips";
 import { currencyTotals, formatCurrency, totalInKRW } from "../utils/currency";
 import { splitTimeRange } from "../utils/time";
@@ -114,90 +115,102 @@ export function TripDetail() {
       <section className="mt-10">
         <h2 className="font-display mb-3 text-xl">📅 일정</h2>
         <div className="space-y-4">
-          {trip.days.map((day) => (
-            <details
-              key={day.day}
-              open
-              className="rounded-2xl border border-ink/10 bg-white p-4 shadow-sm"
-            >
-              <summary className="font-display cursor-pointer text-lg">
-                Day {day.day} ({day.weekday}) {day.date}
-              </summary>
-              <ul className="mt-3">
-                {day.items.map((item) => {
-                  const { start, end } = splitTimeRange(item.time);
-                  return (
-                    <li
-                      key={item.id}
-                      className={`grid gap-x-3 gap-y-1 border-t border-ink/10 py-2 text-sm ${rowCols}`}
-                    >
-                      {/* 좌측: 시간대 (09:00 ~ 10:00) — 시간이 하나도 없는 여행이면 칼럼 자체를 생략 */}
-                      {hasTime && (
-                        <div className="text-xs leading-tight tabular-nums text-brown/80">
-                          {start || end ? (
-                            <>
-                              {start && (
-                                <span className="block font-semibold">
-                                  {start}
-                                </span>
-                              )}
-                              {/* "22:30 ~"(끝 미정), "~ 08:30"(시작 미정) 표기도 그대로 살림 */}
-                              {end && (
-                                <span
-                                  className={
-                                    start
-                                      ? "block text-ink/45"
-                                      : "block font-semibold"
-                                  }
-                                >
-                                  ~ {end}
-                                </span>
-                              )}
-                            </>
-                          ) : (
-                            <span className="text-ink/30">–:–</span>
-                          )}
-                        </div>
-                      )}
-
-                      {/* 가운데: 항목(지역) / 내용 / 참고 */}
-                      <div className="min-w-0">
-                        <p className="font-semibold">{item.title}</p>
-                        {item.content && (
-                          <p className="text-ink/70">{item.content}</p>
-                        )}
-                        {item.note && (
-                          <p className="text-xs text-ink/50">{item.note}</p>
-                        )}
-                      </div>
-
-                      {/* 우측(좁은 화면에서는 아래): 금액 + 통화 단위.
-                          항목별 금액이 아예 없는 여행이면 이 칼럼도 생략 */}
-                      {hasItemCost && (
-                        <div
-                          className={`${costCellCols} sm:self-start sm:text-right`}
+          {trip.days.map((day) => {
+            const dayImage = day.image ? DAY_IMAGES[day.image] : undefined;
+            return (
+              <div
+                key={day.day}
+                className="overflow-hidden rounded-2xl border border-ink/10 bg-white shadow-sm"
+              >
+                {/* 구간이 바뀌는 Day에만 배너 이미지가 붙습니다 (dayImages.ts 참고) */}
+                {dayImage && (
+                  <img
+                    src={dayImage}
+                    alt={`Day ${day.day} 사진`}
+                    className="block w-full object-cover"
+                  />
+                )}
+                <details open className="p-4">
+                  <summary className="font-display cursor-pointer text-lg">
+                    Day {day.day} ({day.weekday}) {day.date}
+                  </summary>
+                  <ul className="mt-3">
+                    {day.items.map((item) => {
+                      const { start, end } = splitTimeRange(item.time);
+                      return (
+                        <li
+                          key={item.id}
+                          className={`grid gap-x-3 gap-y-1 border-t border-ink/10 py-2 text-sm ${rowCols}`}
                         >
-                          {item.cost ? (
-                            <span className="inline-flex items-baseline gap-1 rounded-full bg-cream px-2 py-0.5">
-                              <span className="font-semibold tabular-nums">
-                                {item.cost.amount.toLocaleString()}
-                              </span>
-                              <span className="text-xs font-semibold text-brown/70">
-                                {item.cost.currency}
-                              </span>
-                            </span>
-                          ) : (
-                            // 다른 줄에는 금액이 있으니 칸은 유지하고 옅은 줄표만
-                            <span className="text-xs text-ink/25">–</span>
+                          {/* 좌측: 시간대 (09:00 ~ 10:00) — 시간이 하나도 없는 여행이면 칼럼 자체를 생략 */}
+                          {hasTime && (
+                            <div className="text-xs leading-tight tabular-nums text-brown/80">
+                              {start || end ? (
+                                <>
+                                  {start && (
+                                    <span className="block font-semibold">
+                                      {start}
+                                    </span>
+                                  )}
+                                  {/* "22:30 ~"(끝 미정), "~ 08:30"(시작 미정) 표기도 그대로 살림 */}
+                                  {end && (
+                                    <span
+                                      className={
+                                        start
+                                          ? "block text-ink/45"
+                                          : "block font-semibold"
+                                      }
+                                    >
+                                      ~ {end}
+                                    </span>
+                                  )}
+                                </>
+                              ) : (
+                                <span className="text-ink/30">–:–</span>
+                              )}
+                            </div>
                           )}
-                        </div>
-                      )}
-                    </li>
-                  );
-                })}
-              </ul>
-            </details>
-          ))}
+
+                          {/* 가운데: 항목(지역) / 내용 / 참고 */}
+                          <div className="min-w-0">
+                            <p className="font-semibold">{item.title}</p>
+                            {item.content && (
+                              <p className="text-ink/70">{item.content}</p>
+                            )}
+                            {item.note && (
+                              <p className="text-xs text-ink/50">{item.note}</p>
+                            )}
+                          </div>
+
+                          {/* 우측(좁은 화면에서는 아래): 금액 + 통화 단위.
+                              항목별 금액이 아예 없는 여행이면 이 칼럼도 생략 */}
+                          {hasItemCost && (
+                            <div
+                              className={`${costCellCols} sm:self-start sm:text-right`}
+                            >
+                              {item.cost ? (
+                                <span className="inline-flex items-baseline gap-1 rounded-full bg-cream px-2 py-0.5">
+                                  <span className="font-semibold tabular-nums">
+                                    {item.cost.amount.toLocaleString()}
+                                  </span>
+                                  <span className="text-xs font-semibold text-brown/70">
+                                    {item.cost.currency}
+                                  </span>
+                                </span>
+                              ) : (
+                                // 다른 줄에는 금액이 있으니 칸은 유지하고 옅은 줄표만
+                                <span className="text-xs text-ink/25">–</span>
+                              )}
+                            </div>
+                          )}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </details>
+              </div>
+            );
+          })}
         </div>
       </section>
 
