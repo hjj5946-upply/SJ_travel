@@ -137,12 +137,11 @@
           },
           {
             "id": "i15",
-            "title": "(내용 없음)",
+            "title": "사과하이볼 예약번호 8S2ZVNACMJ",
             "cost": {
               "amount": 80000,
               "currency": "KRW"
-            },
-            "note": "사과하이볼 예약번호 8S2ZVNACMJ"
+            }
           },
           {
             "id": "i16",
@@ -3211,7 +3210,7 @@
   },
   {
     "id": "honeymoon-2027-01",
-    "title": "신혼여행",
+    "title": "신혼여행 (도쿄 & 하와이)",
     "country": "일본 · 미국",
     "city": "도쿄 · 호놀룰루 · 도쿄",
     "startDate": "2027-01-16",
@@ -3224,7 +3223,6 @@
         "day": 1,
         "date": "2027-01-16",
         "weekday": "SAT",
-        "image": "tokyo_1",
         "items": [
           {
             "id": "i1",
@@ -3366,10 +3364,10 @@
           {
             "id": "i15",
             "title": "이동",
-            "time": "07:00 ~ 09:30",
+            "time": "07:40 ~ 10:00",
             "content": "신주쿠 -> 가와구치코 (고속버스)",
             "cost": {
-              "amount": 8800,
+              "amount": 8000,
               "currency": "JPY"
             },
             "note": "바스타 신주쿠"
@@ -3377,11 +3375,12 @@
           {
             "id": "i16",
             "title": "가와구치코",
-            "time": "09:30 ~ 16:00"
+            "time": "10:00 ~ 16:30",
+            "content": "오오이시공원"
           },
           {
             "id": "i17",
-            "title": "하코네"
+            "title": "로프웨이"
           }
         ]
       },
@@ -3561,38 +3560,79 @@
         "day": 5,
         "date": "2027-01-19",
         "weekday": "TUE",
-        "image": "hawaii_2",
         "items": [
           {
             "id": "i1",
             "title": "출국",
             "time": "21:00 ~ 08:46",
-            "content": "HND > HNL",
+            "content": "HND -> HNL",
             "cost": {
-              "amount": 2200000,
+              "amount": 2000000,
               "currency": "KRW"
             }
           },
           {
             "id": "i2",
-            "title": "도착 및 이동",
-            "time": "09:45 ~ 11:20"
+            "title": "호놀룰루공항",
+            "time": "08:46 ~ 10:20",
+            "content": "입국심사 및 짐찾기"
           },
           {
             "id": "i3",
-            "title": "숙소 체크인",
-            "time": "11:20 ~ 12:30",
-            "content": "인터내셔널 마켓"
+            "title": "이동",
+            "time": "10:20 ~ 11:00",
+            "content": "HNL -> 숙소",
+            "cost": {
+              "amount": 45,
+              "currency": "USD"
+            }
           },
           {
             "id": "i4",
-            "title": "간단한 간식",
-            "content": "로얄 하와이안 센터"
+            "title": "숙소 체크인",
+            "time": "11:00 ~ 11:20",
+            "content": "힐튼 와이키키 비치 리조트 체크인",
+            "cost": {
+              "amount": 2500000,
+              "currency": "KRW"
+            }
           },
           {
             "id": "i5",
-            "title": "이동",
-            "time": "12:30 ~ 13:00"
+            "title": "점심식사",
+            "time": "11:20 ~ 13:00",
+            "content": "와이키키 시내에서 식사",
+            "cost": {
+              "amount": 80,
+              "currency": "USD"
+            }
+          },
+          {
+            "id": "i6",
+            "title": "와이키키 해변",
+            "time": "13:00 ~ 15:30",
+            "content": "물놀이"
+          },
+          {
+            "id": "i7",
+            "title": "숙소 체크인",
+            "time": "15:30 ~ 18:30",
+            "content": "입실 및 샤워 & 휴식"
+          },
+          {
+            "id": "i8",
+            "title": "와이키키",
+            "time": "18:30 ~ 22:30",
+            "content": "호얄 하와이안센터/인터내셔널 마켓 플레이스 & 저녁식사",
+            "cost": {
+              "amount": 250,
+              "currency": "USD"
+            }
+          },
+          {
+            "id": "i9",
+            "title": "숙소 체크인",
+            "time": "22:30 ~"
           }
         ]
       },
@@ -3602,12 +3642,119 @@
         "weekday": "WED",
         "items": [
           {
-            "id": "i6",
-            "title": "이올라니 궁전/ 카카아코/ 알라모아나 센터"
+            "id": "i10",
+            "title": "이동",
+            "time": "07:00 ~ 08:00",
+            "content": "숙소 -> 하나우마 베이"
           },
           {
-            "id": "i7",
-            "title": "하나우마 베이 스노쿨링"
+            "id": "i11",
+            "title": "스노쿨링",
+            "time": "08:00 ~ 12:00",
+            "content": "하나우마 베이 스노쿨링",
+            "cost": {
+              "amount": 220000,
+              "currency": "KRW"
+            },
+            "note": "클룩(조인 하와이)"
+          },
+          {
+            "id": "i12",
+            "title": "현지 입장료",
+            "cost": {
+              "amount": 100,
+              "currency": "USD"
+            }
+          },
+          {
+            "id": "i13",
+            "title": "이동",
+            "time": "12:00 ~ 12:30",
+            "content": "하나우마 베이 -> 숙소",
+            "cost": {
+              "amount": 50,
+              "currency": "USD"
+            },
+            "note": "간식 & 간단히 점심"
+          },
+          {
+            "id": "i14",
+            "title": "숙소",
+            "time": "12:30 ~ 14:30",
+            "content": "재정비 후 나갈준비"
+          },
+          {
+            "id": "i15",
+            "title": "이동",
+            "time": "14:30 ~ 15:00",
+            "content": "숙소 -> 이올라니 궁전",
+            "cost": {
+              "amount": 6,
+              "currency": "USD"
+            },
+            "note": "the bus 2번"
+          },
+          {
+            "id": "i16",
+            "title": "이올라니 궁전",
+            "time": "15:00 ~ 16:00",
+            "content": "구경"
+          },
+          {
+            "id": "i17",
+            "title": "이동",
+            "time": "16:00 ~ 16:20",
+            "content": "이올라니 궁전 -> 카카아코 벽화거리",
+            "note": "도보이동"
+          },
+          {
+            "id": "i18",
+            "title": "카카아코",
+            "time": "16:20 ~ 17:20",
+            "content": "구경"
+          },
+          {
+            "id": "i19",
+            "title": "이동",
+            "time": "17:20 ~ 17:40",
+            "content": "카카아코 -> 알라모아나 센터",
+            "cost": {
+              "amount": 6,
+              "currency": "USD"
+            },
+            "note": "the bus 20/42번"
+          },
+          {
+            "id": "i20",
+            "title": "알라모아나 센터",
+            "time": "17:40 ~ 20:00",
+            "content": "구경 및 저녁식사",
+            "cost": {
+              "amount": 100,
+              "currency": "USD"
+            }
+          },
+          {
+            "id": "i21",
+            "title": "이동",
+            "time": "20:00 ~ 20:30",
+            "content": "알라모아나 센터 -> 숙소",
+            "cost": {
+              "amount": 5,
+              "currency": "USD"
+            },
+            "note": "the bus 8/13/20/42번"
+          },
+          {
+            "id": "i22",
+            "title": "산책",
+            "time": "20:30 ~ 21:30",
+            "content": "숙소 주변 구경 & 야간 산책"
+          },
+          {
+            "id": "i23",
+            "title": "숙소",
+            "time": "21:30 ~"
           }
         ]
       },
@@ -3617,12 +3764,105 @@
         "weekday": "THU",
         "items": [
           {
-            "id": "i8",
-            "title": "쿠랑로아 랜치 + 쥬라기 밸리"
+            "id": "i24",
+            "title": "렌터카 수령",
+            "time": "07:00 ~ 07:30"
           },
           {
-            "id": "i9",
-            "title": "호로말루히아 보타니컬 가든"
+            "id": "i25",
+            "title": "이동",
+            "time": "07:30 ~ 08:30",
+            "content": "와이키키 -> 쿠알로아 랜치"
+          },
+          {
+            "id": "i26",
+            "title": "쿠알로아 랜치",
+            "time": "08:30 ~ 11:30",
+            "content": "eBike 투어",
+            "cost": {
+              "amount": 200000,
+              "currency": "KRW"
+            },
+            "note": "클룩 결제"
+          },
+          {
+            "id": "i27",
+            "title": "이동",
+            "time": "11:30 ~ 12:00",
+            "content": "쿠알로아 랜치 -> 호오말루히아 보타니컬 가든"
+          },
+          {
+            "id": "i28",
+            "title": "호오말루히아",
+            "time": "12:00 ~ 13:30",
+            "content": "구경 & 간식"
+          },
+          {
+            "id": "i29",
+            "title": "이동",
+            "time": "13:30 ~ 14:20",
+            "content": "호오말루히아 -> 할레이바 올드 타운"
+          },
+          {
+            "id": "i30",
+            "title": "할레이바 올드 타운",
+            "time": "14:20 ~ 16:00",
+            "content": "구경 & 점심식사",
+            "cost": {
+              "amount": 100,
+              "currency": "USD"
+            }
+          },
+          {
+            "id": "i31",
+            "title": "이동",
+            "time": "16:00 ~ 16:20",
+            "content": "할레이바 -> 와이메라 밸리"
+          },
+          {
+            "id": "i32",
+            "title": "와이메아 밸리",
+            "time": "16:20 ~ 17:50",
+            "content": "구경"
+          },
+          {
+            "id": "i33",
+            "title": "이동",
+            "time": "17:50 ~ 18:10",
+            "content": "와이메라 밸리 -> 라니아케아 비치"
+          },
+          {
+            "id": "i34",
+            "title": "라이아케아 비치",
+            "time": "18:10 ~ 19:00",
+            "content": "일몰구경  & 드라이브"
+          },
+          {
+            "id": "i35",
+            "title": "이동",
+            "time": "19:00 ~ 20:10",
+            "content": "라니아케아 비치 -> 와이키키 숙소",
+            "cost": {
+              "amount": 60,
+              "currency": "USD"
+            },
+            "note": "호텔 주차비용"
+          },
+          {
+            "id": "i36",
+            "title": "와이키키",
+            "time": "20:10 ~ 21:30",
+            "content": "저녁식사",
+            "cost": {
+              "amount": 500,
+              "currency": "USD"
+            },
+            "note": "울프강 스테이크 하우스"
+          },
+          {
+            "id": "i37",
+            "title": "숙소",
+            "time": "21:30 ~"
           }
         ]
       },
@@ -3632,20 +3872,139 @@
         "weekday": "FRI",
         "items": [
           {
-            "id": "i10",
-            "title": "다이아몬드 헤드"
+            "id": "i38",
+            "title": "이동",
+            "time": "07:30 ~ 07:50",
+            "content": "숙소 -> 다이아몬드 헤드"
           },
           {
-            "id": "i11",
-            "title": "와이마날로 비치"
+            "id": "i39",
+            "title": "다이아몬드 헤드",
+            "time": "07:50 ~ 09:30",
+            "content": "트래킹 & 경치 구경 및 간식먹기"
           },
           {
-            "id": "i12",
-            "title": "카일루아 타운"
+            "id": "i40",
+            "title": "이동",
+            "time": "09:30 ~ 10:00",
+            "content": "다이아몬드 헤드 -> 할로나블로우홀"
           },
           {
-            "id": "i13",
-            "title": "마카푸우"
+            "id": "i41",
+            "title": "할로나블로우홀",
+            "time": "10:00 ~ 10:20",
+            "content": "구경"
+          },
+          {
+            "id": "i42",
+            "title": "이동",
+            "time": "10:20 ~ 10:40",
+            "content": "할로나블로우홀 -> 마카푸우"
+          },
+          {
+            "id": "i43",
+            "title": "마카푸우",
+            "time": "10:40 ~ 11:30",
+            "content": "구경&산책"
+          },
+          {
+            "id": "i44",
+            "title": "이동",
+            "time": "11:30 ~ 11:50",
+            "content": "마카푸우 -> 와이마날로 비치"
+          },
+          {
+            "id": "i45",
+            "title": "와이마날로 비치",
+            "time": "11:50 ~ 12:30",
+            "content": "구경"
+          },
+          {
+            "id": "i46",
+            "title": "이동",
+            "time": "12:30 ~ 12:50",
+            "content": "와이마날로 비치 -> 카일루아 타운"
+          },
+          {
+            "id": "i47",
+            "title": "카일루아 타운",
+            "time": "12:50 ~ 15:00",
+            "content": "구경 및 점심식사",
+            "cost": {
+              "amount": 150,
+              "currency": "USD"
+            }
+          },
+          {
+            "id": "i48",
+            "title": "카일루아 비치파크",
+            "time": "15:00 ~ 16:30",
+            "content": "카일루아 비치파크 & 라니카이비치 구경"
+          },
+          {
+            "id": "i49",
+            "title": "이동",
+            "time": "16:30 ~ 17:50",
+            "content": "카일루아 -> 와이키키",
+            "note": "렌터카 반납"
+          },
+          {
+            "id": "i50",
+            "title": "와이키키",
+            "time": "17:50 ~ 19:30",
+            "content": "시내 구경 및 저녁식사",
+            "cost": {
+              "amount": 150,
+              "currency": "USD"
+            },
+            "note": "야드하우스/듀크스"
+          },
+          {
+            "id": "i51",
+            "title": "이동",
+            "time": "19:30 ~ 19:50",
+            "content": "와이키키 -> 돈키호테",
+            "cost": {
+              "amount": 30,
+              "currency": "USD"
+            },
+            "note": "우버"
+          },
+          {
+            "id": "i52",
+            "title": "돈키호테 하와이점",
+            "time": "19:50 ~ 21:00",
+            "content": "구경 및 쇼핑",
+            "cost": {
+              "amount": 100,
+              "currency": "USD"
+            }
+          },
+          {
+            "id": "i53",
+            "title": "이동",
+            "time": "21:00 ~ 21:20",
+            "content": "돈키호테 -> 와이키키",
+            "cost": {
+              "amount": 30,
+              "currency": "USD"
+            },
+            "note": "우버"
+          },
+          {
+            "id": "i54",
+            "title": "와이키키",
+            "time": "21:20 ~ 22:30",
+            "content": "숙소 주변 놀기 및 야식",
+            "cost": {
+              "amount": 70,
+              "currency": "USD"
+            }
+          },
+          {
+            "id": "i55",
+            "title": "숙소",
+            "time": "22:30 ~"
           }
         ]
       },
@@ -3655,16 +4014,14 @@
         "weekday": "SAT",
         "items": [
           {
-            "id": "i14",
-            "title": "라니아케아 비치"
-          },
-          {
-            "id": "i15",
-            "title": "할레이바올드타운"
-          },
-          {
-            "id": "i16",
-            "title": "와이메아 밸리"
+            "id": "i56",
+            "title": "자유시간",
+            "time": "09:00 ~ 22:00",
+            "content": "자유시간",
+            "cost": {
+              "amount": 300,
+              "currency": "USD"
+            }
           }
         ]
       },
@@ -3674,8 +4031,27 @@
         "weekday": "SUN",
         "items": [
           {
-            "id": "i17",
-            "title": "HNL > HND"
+            "id": "i57",
+            "title": "기상",
+            "time": "07:30 ~ 09:00",
+            "content": "체크아웃"
+          },
+          {
+            "id": "i58",
+            "title": "이동",
+            "time": "09:00 ~ 10:00",
+            "content": "숙소 -> NHL",
+            "cost": {
+              "amount": 50,
+              "currency": "USD"
+            },
+            "note": "우버/리스트/한인택시"
+          },
+          {
+            "id": "i59",
+            "title": "호놀룰루공항",
+            "time": "10:00 ~ 13:55",
+            "content": "체크인 및 출국 준비"
           }
         ]
       },
@@ -3683,7 +4059,6 @@
         "day": 11,
         "date": "2027-01-25",
         "weekday": "MON",
-        "image": "tokyo_3",
         "items": [
           {
             "id": "i1",
@@ -3705,7 +4080,11 @@
             "id": "i3",
             "title": "숙소",
             "time": "20:00 ~ 20:30",
-            "content": "짐 찾고 체크인"
+            "content": "짐 찾고 체크인",
+            "cost": {
+              "amount": 379203,
+              "currency": "KRW"
+            }
           },
           {
             "id": "i4",
@@ -3773,15 +4152,89 @@
         "items": [
           {
             "id": "i9",
-            "title": "가마쿠라"
+            "title": "이동",
+            "time": "09:00 ~ 10:00",
+            "content": "시나가와역[JO] -> 가마쿠라역",
+            "cost": {
+              "amount": 1620,
+              "currency": "JPY"
+            }
           },
           {
             "id": "i10",
-            "title": "요코하마"
+            "title": "가마쿠라",
+            "time": "10:00 ~ 14:30",
+            "content": "구경 및 점심식사",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
           },
           {
             "id": "i11",
-            "title": "가와사키"
+            "title": "이동",
+            "time": "14:30 ~ 15:10",
+            "content": "가마쿠라역[JO] -> 간나이역",
+            "cost": {
+              "amount": 880,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i12",
+            "title": "요코하마",
+            "time": "15:10 ~ 19:00",
+            "content": "구경",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i13",
+            "title": "이동",
+            "time": "19:00 ~ 19:30",
+            "content": "간나이역[JK] -> 가와사키역",
+            "cost": {
+              "amount": 520,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i14",
+            "title": "가와사키",
+            "time": "19:30 ~ 21:30",
+            "content": "구경 및 저녁식사",
+            "cost": {
+              "amount": 4000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i15",
+            "title": "이동",
+            "time": "21:30 ~ 21:45",
+            "content": "가와사키역[JK] -> 시나가와역",
+            "cost": {
+              "amount": 520,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i16",
+            "title": "시나가와",
+            "time": "21:45 ~ 23:00",
+            "content": "시나가와 숙소 근처 구경하며 놀기",
+            "cost": {
+              "amount": 2000,
+              "currency": "JPY"
+            }
+          },
+          {
+            "id": "i17",
+            "title": "숙소",
+            "time": "23:00 ~",
+            "content": "끝.."
           }
         ]
       },
@@ -3791,10 +4244,22 @@
         "weekday": "THU",
         "items": [
           {
-            "id": "i12",
+            "id": "i18",
+            "title": "기상",
+            "time": "07:30 ~ 09:40",
+            "content": "기상 후 갈준비 ㅠ"
+          },
+          {
+            "id": "i19",
             "title": "이동",
-            "time": "13:15 ~ 16:15",
-            "content": "나리타공항(T3) -> 인천공항(T1)"
+            "time": "09:40 ~ 11:00",
+            "content": "시나가와역 -> 나리타공항(T3)"
+          },
+          {
+            "id": "i20",
+            "title": "귀국",
+            "time": "11:00 ~ 13:15",
+            "content": "체크인 후 갈준비"
           }
         ]
       }
@@ -3813,7 +4278,7 @@
         "id": "hm-f2",
         "category": "교통비",
         "cost": {
-          "amount": 70000,
+          "amount": 58500,
           "currency": "KRW"
         },
         "content": "인천공항 장기주차장 주차비"
@@ -3848,30 +4313,21 @@
         "id": "hm2-f3",
         "category": "비상금",
         "cost": {
-          "amount": 3000,
-          "currency": "JPY"
+          "amount": 100,
+          "currency": "USD"
         }
       },
       {
         "id": "hm3-f1",
         "category": "유심",
         "cost": {
-          "amount": 30000,
+          "amount": 57600,
           "currency": "KRW"
         },
         "content": "KDDI - 3일 무제한(5G)"
       },
       {
         "id": "hm3-f2",
-        "category": "교통비",
-        "cost": {
-          "amount": 27200,
-          "currency": "KRW"
-        },
-        "content": "도쿄패스권 48시간 * 2"
-      },
-      {
-        "id": "hm3-f3",
         "category": "비상금",
         "cost": {
           "amount": 3000,
