@@ -1,6 +1,7 @@
+import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { Trip } from "../types/trip";
-import { flagOf } from "../utils/countries";
+import { CountryFlag } from "./CountryFlag";
 import { daysUntil, shortMonthDay, tripStatus } from "../utils/date";
 import { groupByYear, tripDurationDays } from "../utils/stats";
 
@@ -18,7 +19,7 @@ export function TripTimeline({ trips }: { trips: Trip[] }) {
 
   if (years.length === 0) {
     return (
-      <p className="rounded-2xl border border-ink/10 bg-white p-6 text-center text-ink/50 shadow-sm">
+      <p className="rounded-2xl border border-ink/10 bg-white p-6 text-center text-ink/70 shadow-sm">
         아직 기록된 여행이 없어요.
       </p>
     );
@@ -26,15 +27,16 @@ export function TripTimeline({ trips }: { trips: Trip[] }) {
 
   return (
     <div className="space-y-6">
-      {years.map((group) => (
-        // 연도별로 접고 펼치기 — 기본은 접힌 상태
-        <details key={group.year} className="group">
+      {years.map((group, idx) => (
+        // 연도별로 접고 펼치기 — 가장 최근 연도(맨 위)만 펼친 채로 시작
+        <details key={group.year} open={idx === 0} className="group">
           <summary className="flex cursor-pointer list-none items-center gap-3 [&::-webkit-details-marker]:hidden">
-            <span className="text-brown/60 transition-transform group-open:rotate-90">
-              ▶
-            </span>
+            <ChevronRight
+              className="size-5 shrink-0 text-brown/70 transition-transform group-open:rotate-90"
+              strokeWidth={2}
+            />
             <h3 className="font-display text-2xl text-brown">{group.year}</h3>
-            <span className="whitespace-nowrap text-sm text-ink/50">
+            <span className="whitespace-nowrap text-sm text-ink/70">
               여행 {group.trips.length}회
             </span>
             <span className="h-px flex-1 bg-ink/10" />
@@ -68,15 +70,16 @@ export function TripTimeline({ trips }: { trips: Trip[] }) {
                           여행 중
                         </span>
                       )}
-                      <span className="ml-auto text-xs text-ink/50 tabular-nums">
+                      <span className="ml-auto text-xs text-ink/70 tabular-nums">
                         {tripDurationDays(trip)}일
                       </span>
                     </div>
                     <p className="font-display text-xl">
                       {trip.coverEmoji ?? "✈️"} {trip.title}
                     </p>
-                    <p className="text-sm text-ink/60">
-                      {flagOf(trip.country)} {trip.city}, {trip.country}
+                    <p className="flex items-center gap-1.5 text-sm text-ink/70">
+                      <CountryFlag country={trip.country} />
+                      {trip.city}, {trip.country}
                     </p>
                   </Link>
                 </li>

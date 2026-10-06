@@ -1,5 +1,5 @@
 import type { Trip } from "../types/trip";
-import { flagOf, splitCountries } from "./countries";
+import { splitCountries } from "./countries";
 import { tripStatus } from "./date";
 
 export function tripDurationDays(trip: Trip): number {
@@ -80,7 +80,6 @@ export function groupByYear(trips: Trip[]): YearGroup[] {
 
 export interface CountryVisit {
   country: string;
-  flag: string;
   /** 같은 국가를 여러 번 갔을 수 있으므로 여행 목록을 그대로 들고 있음 (최신순) */
   trips: Trip[];
   /** 방문한 도시 (같은 도시를 여러 번 가도 한 번만) */
@@ -118,7 +117,6 @@ export function groupByCountry(trips: Trip[]): CountryVisit[] {
       );
       return {
         country,
-        flag: flagOf(country),
         trips: sorted,
         cities: [...new Set(bucket.cities)],
         visitCount: sorted.length,

@@ -17,6 +17,9 @@
   --color-lavender: #e8def8;
   --color-brown: #7a5c4f;
   --color-ink: #4a3f35;
+  /* 통화 색 — 파랑/빨강 계열이되 파스텔 테마에서 튀지 않게 채도를 낮춘 톤 */
+  --color-krw: #4a7ebd; /* 원화 */
+  --color-foreign: #d4534a; /* 엔화·달러 */
 }
 
 body {
@@ -31,4 +34,13 @@ h1, h2, h3, .font-display {
   font-family: var(--font-display);
   font-weight: 700;
   letter-spacing: -0.01em;
+}
+
+/* 레이아웃 그리드 — 헤더와 모든 페이지가 같은 폭/좌우 여백을 쓰도록 한 곳에서 관리.
+   본문이 읽기 좋은 폭(768px)에 맞추고, 그보다 넓은 화면에선 가운데 정렬. */
+@utility page-container {
+  margin-inline: auto;
+  width: 100%;
+  max-width: var(--container-3xl);
+  padding-inline: --spacing(6);
 }

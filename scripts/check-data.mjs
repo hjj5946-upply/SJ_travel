@@ -82,6 +82,8 @@ trips.forEach((trip, ti) => {
       warn(dw, `date ${day.date} 가 여행 기간(${trip.startDate} ~ ${trip.endDate}) 밖입니다`);
     if (day.image !== undefined && !DAY_IMAGE_KEYS.includes(day.image))
       err(dw, `image "${day.image}" 가 src/data/dayImages.ts 에 없습니다 (등록된 키: ${DAY_IMAGE_KEYS.join(" / ") || "없음"})`);
+    if (day.rentalCar !== undefined && typeof day.rentalCar !== "boolean")
+      err(dw, `rentalCar 는 true/false 여야 합니다 (${JSON.stringify(day.rentalCar)})`);
     if (!Array.isArray(day.items)) return err(dw, "items 가 배열이 아닙니다");
 
     const seenItemIds = new Set();

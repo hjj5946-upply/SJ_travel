@@ -31,6 +31,7 @@ export interface DayPlan {
   date: string; // ISO date "2026-05-23"
   weekday?: string; // "SAT" 같은 표기용 (없으면 date로 계산)
   image?: string; // Day 카드 위 배너 이미지. src/data/dayImages.ts 의 키 (예: "tokyo_1")
+  rentalCar?: boolean; // 렌터카 쓰는 날이면 true → Day 카드 날씨 왼쪽에 차 아이콘
   items: ScheduleItem[];
 }
 

@@ -74,3 +74,15 @@ export function totalInKRW(
 ): number {
   return currencyTotals(days, fixedExpenses).reduce((sum, t) => sum + t.krw, 0);
 }
+
+/** 통화별 글자색 — 원화는 파랑, 엔화·달러는 빨강 계열로 한눈에 구분 (index.css 의 krw / foreign 토큰).
+ *  목록에 없는 통화는 기본 갈색 */
+const CURRENCY_TEXT_CLASS: Partial<Record<Currency, string>> = {
+  KRW: "text-krw",
+  JPY: "text-foreign",
+  USD: "text-foreign",
+};
+
+export function currencyTextClass(currency: Currency): string {
+  return CURRENCY_TEXT_CLASS[currency] ?? "text-brown";
+}

@@ -32,3 +32,30 @@ export function tripStatus(trip: Trip, today = todayISO()): TripStatus {
   if (trip.endDate < today) return "past";
   return "ongoing";
 }
+
+// ---- 화면 표기용 날짜 포맷 (전체 화면 공통: "2027.01.16") ----
+
+const WEEKDAY_KO = ["일", "월", "화", "수", "목", "금", "토"];
+
+/** "2027-01-16" → "토" (타임존 영향 없이 날짜 문자열로만 계산) */
+export function weekdayKo(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  return WEEKDAY_KO[new Date(Date.UTC(y, m - 1, d)).getUTCDay()];
+}
+
+/** "2027-01-16" → "2027.01.16" */
+export function formatDate(iso: string): string {
+  return iso.replaceAll("-", ".");
+}
+
+/** "2027-01-16" → "01.16 (토)" — Day 카드처럼 연도가 이미 보이는 곳용 */
+export function formatMonthDayWithWeekday(iso: string): string {
+  return `${shortMonthDay(iso)} (${weekdayKo(iso)})`;
+}
+
+/** 같은 해면 끝 날짜의 연도를 생략: "2027.01.16 ~ 01.29"
+ *  해를 넘기면 둘 다 표기: "2026.12.30 ~ 2027.01.02" */
+export function formatDateRange(start: string, end: string): string {
+  const sameYear = start.slice(0, 4) === end.slice(0, 4);
+  return `${formatDate(start)} ~ ${sameYear ? shortMonthDay(end) : formatDate(end)}`;
+}

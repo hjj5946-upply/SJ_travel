@@ -24,7 +24,7 @@ src/
   components/
     Navbar.tsx
     StatCard.tsx
-    TripCard.tsx
+    CountryFlag.tsx     # 국가명 → SVG 국기 (Windows에서도 국기로 보이게)
   pages/
     Dashboard.tsx       # 메인 대시보드 (통계 + 여행 목록)
     TripDetail.tsx       # 여행 상세 (일정/지출/체크리스트/맛집 4섹션)

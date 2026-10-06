@@ -1,6 +1,6 @@
-import hawaii2 from "../assets/hawaii_2.png";
-import tokyo1 from "../assets/tokyo_1.png";
-import tokyo3 from "../assets/tokyo_3.png";
+import hawaii2 from "../assets/hawaii_2.webp";
+import tokyo1 from "../assets/tokyo_1.webp";
+import tokyo3 from "../assets/tokyo_3.webp";
 
 /**
  * Day 카드 맨 위에 깔리는 배너 이미지.

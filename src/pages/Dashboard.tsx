@@ -1,4 +1,4 @@
-import { CalendarDays, Earth, Plane, PlaneTakeoff } from "lucide-react";
+import { BookHeart, CalendarDays, Earth, Plane, PlaneTakeoff } from "lucide-react";
 import { trips } from "../data/trips";
 import { computeDashboardStats, partitionTrips } from "../utils/stats";
 import { StatCard } from "../components/StatCard";
@@ -12,10 +12,30 @@ export function Dashboard() {
   const done = [...ongoing, ...past];
 
   return (
-    <div className="mx-auto max-w-5xl px-6 pb-20">
+    // 영역마다 구분선(divide-y)을 두고 위아래 여백으로 간격을 맞춤
+    <div className="page-container divide-y divide-ink/10 pb-20 [&>section]:py-8 [&>section:first-child]:pt-2">
+      <section>
+        <h2 className="font-display mb-4 flex items-center gap-2 text-xl">
+          <BookHeart className="size-5 text-brown" strokeWidth={2} />
+          여행 기록
+        </h2>
+        <div className="grid grid-cols-3 gap-3 sm:gap-4">
+          <StatCard icon={Plane} iconBg="bg-sky" label="다녀온 여행" value={stats.totalTrips} unit="회" />
+          <StatCard icon={CalendarDays} iconBg="bg-peach" label="여행 일수" value={stats.totalDays} unit="일" />
+          <StatCard
+            icon={Earth}
+            iconBg="bg-mint"
+            label="가본 나라"
+            value={stats.totalCountries}
+            unit="개국"
+            to="/countries"
+          />
+        </div>
+      </section>
+
       {upcoming.length > 0 && (
-        <section className="mb-10 max-w-3xl">
-          <h2 className="font-display mb-3 flex items-center gap-2 text-xl">
+        <section>
+          <h2 className="font-display mb-4 flex items-center gap-2 text-xl">
             <PlaneTakeoff className="size-5 text-brown" strokeWidth={2} />
             다가오는 여행
           </h2>
@@ -27,19 +47,7 @@ export function Dashboard() {
         </section>
       )}
 
-      <section className="mb-10 grid grid-cols-3 gap-3 sm:gap-4">
-        <StatCard icon={Plane} iconBg="bg-sky" label="다녀온 여행" value={stats.totalTrips} />
-        <StatCard icon={CalendarDays} iconBg="bg-peach" label="여행 일수" value={stats.totalDays} />
-        <StatCard
-          icon={Earth}
-          iconBg="bg-mint"
-          label="가본 나라"
-          value={stats.totalCountries}
-          to="/countries"
-        />
-      </section>
-
-      <section className="max-w-3xl">
+      <section>
         <h2 className="font-display mb-4 flex items-center gap-2 text-xl">
           <CalendarDays className="size-5 text-brown" strokeWidth={2} />
           여행 타임라인

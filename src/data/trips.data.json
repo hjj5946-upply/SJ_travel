@@ -3223,6 +3223,7 @@
         "day": 1,
         "date": "2027-01-16",
         "weekday": "SAT",
+        "image": "tokyo_1",
         "items": [
           {
             "id": "i1",
@@ -3560,6 +3561,7 @@
         "day": 5,
         "date": "2027-01-19",
         "weekday": "TUE",
+        "image": "hawaii_2",
         "items": [
           {
             "id": "i1",
@@ -3762,6 +3764,7 @@
         "day": 7,
         "date": "2027-01-21",
         "weekday": "THU",
+        "rentalCar": true,
         "items": [
           {
             "id": "i24",
@@ -3870,6 +3873,7 @@
         "day": 8,
         "date": "2027-01-22",
         "weekday": "FRI",
+        "rentalCar": true,
         "items": [
           {
             "id": "i38",
@@ -4059,6 +4063,7 @@
         "day": 11,
         "date": "2027-01-25",
         "weekday": "MON",
+        "image": "tokyo_3",
         "items": [
           {
             "id": "i1",
@@ -4365,7 +4370,7 @@
   },
   {
     "id": "tokyo-2018-06",
-    "title": "도쿄 여행 (1박2일)",
+    "title": "도쿄 여행",
     "country": "일본",
     "city": "도쿄",
     "startDate": "2018-06-23",
@@ -4472,7 +4477,7 @@
   },
   {
     "id": "tokyo-2018-11",
-    "title": "도쿄 여행 (1박2일)",
+    "title": "도쿄 여행",
     "country": "일본",
     "city": "도쿄",
     "startDate": "2018-11-10",
@@ -4567,7 +4572,7 @@
   },
   {
     "id": "tokyo-2019-09-short",
-    "title": "도쿄 여행 (1박2일)",
+    "title": "도쿄 여행",
     "country": "일본",
     "city": "도쿄",
     "startDate": "2019-09-28",
