@@ -11,10 +11,11 @@
     "check:data": "node scripts/check-data.mjs"
   },
   "dependencies": {
+    "gsap": "^3.12.7",
+    "lucide-react": "^1.52.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router-dom": "^7.1.1",
-    "gsap": "^3.12.7"
+    "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",

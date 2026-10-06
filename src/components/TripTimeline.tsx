@@ -25,18 +25,22 @@ export function TripTimeline({ trips }: { trips: Trip[] }) {
   }
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6">
       {years.map((group) => (
-        <section key={group.year}>
-          <div className="mb-3 flex items-center gap-3">
+        // 연도별로 접고 펼치기 — 기본은 접힌 상태
+        <details key={group.year} className="group">
+          <summary className="flex cursor-pointer list-none items-center gap-3 [&::-webkit-details-marker]:hidden">
+            <span className="text-brown/60 transition-transform group-open:rotate-90">
+              ▶
+            </span>
             <h3 className="font-display text-2xl text-brown">{group.year}</h3>
             <span className="whitespace-nowrap text-sm text-ink/50">
-              {group.trips.length}번의 여행
+              여행 {group.trips.length}회
             </span>
             <span className="h-px flex-1 bg-ink/10" />
-          </div>
+          </summary>
 
-          <ol className="relative border-l-2 border-ink/10 pl-6">
+          <ol className="relative mt-3 border-l-2 border-ink/10 pl-6">
             {group.trips.map((trip) => {
               const status = tripStatus(trip);
               return (
@@ -79,7 +83,7 @@ export function TripTimeline({ trips }: { trips: Trip[] }) {
               );
             })}
           </ol>
-        </section>
+        </details>
       ))}
     </div>
   );

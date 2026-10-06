@@ -1,3 +1,4 @@
+import { Earth } from "lucide-react";
 import { Link } from "react-router-dom";
 import { trips } from "../data/trips";
 import { flagOf } from "../utils/countries";
@@ -14,9 +15,12 @@ export function Countries() {
       <Link to="/" className="text-sm text-brown/80">
         ← 대시보드
       </Link>
-      <h1 className="font-display mt-2 text-3xl">🌏 가본 나라</h1>
+      <h1 className="font-display mt-2 flex items-center gap-2 text-3xl">
+        <Earth className="size-7 text-brown" strokeWidth={2} />
+        가본 나라
+      </h1>
       <p className="text-ink/70">
-        {countries.length}개 국가 · {visited.length}번의 여행
+        {countries.length}개 국가 · 여행 {visited.length}회
       </p>
 
       <ul className="mt-8 space-y-3">
@@ -33,7 +37,7 @@ export function Countries() {
               </div>
               <div className="shrink-0 text-right">
                 <p className="font-display text-xl text-brown tabular-nums">
-                  {c.visitCount}번
+                  {c.visitCount}회
                 </p>
                 <p className="text-xs text-ink/50 tabular-nums">
                   총 {c.totalDays}일
